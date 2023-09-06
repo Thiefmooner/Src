@@ -1,0 +1,1111 @@
+[
+    {
+        "id": "698f872c-407b-471b-a28b-eee69a4e64ba",
+        "label": "敏捷开发",
+        "icon": "fa fa-send-o",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "1a86c83c-4bd2-44eb-ae47-7e8e0476e73b",
+                "label": "敏捷开发向导111",
+                "icon": "fa fa-location-arrow",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "1f98c46c-72f1-4abb-b750-af1620d33c79",
+                "label": "代码生成器",
+                "icon": "fa fa-desktop",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "634df40d-53fd-4bb4-b15f-ef5a6aca6f44",
+                "label": "代码模板",
+                "icon": "fa fa-share-alt-square",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "dcad6b11-1c43-4170-a45d-59b48a27bd4e",
+                "label": "图标查看",
+                "icon": "fa fa-search",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "abf9cd56-49bc-475f-ab78-46f4843e3075",
+                "label": "移动图标",
+                "icon": "fa fa-tablet",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "5977b03a-3eee-4f99-aa9a-6d1c299a86dc",
+                "label": "表格组件",
+                "icon": "fa fa-th-list",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "6196d60f-2f2d-4846-8263-df94d873e7f6",
+                        "label": "普通表格",
+                        "icon": "fa fa-table",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "5977b03a-3eee-4f99-aa9a-6d1c299a86dc"
+                    },
+                    {
+                        "id": "d5a9ab1e-b781-4150-a1c9-c76281fdb939",
+                        "label": "编辑表格",
+                        "icon": "fa fa-table",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "5977b03a-3eee-4f99-aa9a-6d1c299a86dc"
+                    },
+                    {
+                        "id": "a95a4141-13f7-4cc3-9eba-1655068ec5e6",
+                        "label": "统计表格",
+                        "icon": "fa fa-file-archive-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "5977b03a-3eee-4f99-aa9a-6d1c299a86dc"
+                    }
+                ],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "ed7a01df-cb07-4282-9f5d-2ecf4a839e9c",
+                "label": "数据看板",
+                "icon": "fa fa-line-chart",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "bef57647-25d1-47f7-98e8-f007dc5f3451",
+                        "label": "看板设计",
+                        "icon": "fa fa-newspaper-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "ed7a01df-cb07-4282-9f5d-2ecf4a839e9c"
+                    },
+                    {
+                        "id": "93dd9629-a3d0-4287-ad50-f080c2a9f015",
+                        "label": "看板发布",
+                        "icon": "fa fa-laptop",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "ed7a01df-cb07-4282-9f5d-2ecf4a839e9c"
+                    },
+                    {
+                        "id": "b4b0ad00-3f22-4093-8a88-c46931719d53",
+                        "label": "看板演示",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "ed7a01df-cb07-4282-9f5d-2ecf4a839e9c"
+                    }
+                ],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "054ad6b9-2d08-4c52-b8c0-e91bd01dbc3b",
+                "label": "信息可视化",
+                "icon": "fa fa-camera",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "f372cf47-a32d-4348-b800-94e7a135905c",
+                        "label": "货架展示",
+                        "icon": "fa fa-bandcamp",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "054ad6b9-2d08-4c52-b8c0-e91bd01dbc3b"
+                    },
+                    {
+                        "id": "2924b46d-d2e5-4ddb-af12-efb484524f2c",
+                        "label": "货架展示2",
+                        "icon": "fa fa-bandcamp",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "054ad6b9-2d08-4c52-b8c0-e91bd01dbc3b"
+                    },
+                    {
+                        "id": "3bb29a7f-ac7d-4e81-aba3-8d8ccb6ee02e",
+                        "label": "生产线",
+                        "icon": "fa fa-bandcamp",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "054ad6b9-2d08-4c52-b8c0-e91bd01dbc3b"
+                    }
+                ],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "79eed5cf-ace0-4ecb-a9b6-901226e7f711",
+                "label": "甘特图",
+                "icon": "fa fa-bar-chart",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "ad841c59-3e5e-4c40-b3f8-0b2db714b92f",
+                        "label": "一般显示",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "79eed5cf-ace0-4ecb-a9b6-901226e7f711"
+                    },
+                    {
+                        "id": "1831148d-9d09-4856-bd36-26556a692a0c",
+                        "label": "树形显示",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "79eed5cf-ace0-4ecb-a9b6-901226e7f711"
+                    },
+                    {
+                        "id": "6c7b87f4-ef80-4ca2-92d3-0da14900e069",
+                        "label": "动态显示",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "79eed5cf-ace0-4ecb-a9b6-901226e7f711"
+                    },
+                    {
+                        "id": "bb7d6b50-6bd3-4f90-8151-3e3fc0c9b5a1",
+                        "label": "分页显示",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "79eed5cf-ace0-4ecb-a9b6-901226e7f711"
+                    },
+                    {
+                        "id": "a8361e98-afac-4309-b5eb-da0d0d44efec",
+                        "label": "甘特图应用",
+                        "icon": "fa fa-circle-o-notch",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "79eed5cf-ace0-4ecb-a9b6-901226e7f711"
+                    }
+                ],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "9a6fd732-76a5-4b08-9524-3ab42666552c",
+                "label": "门户配置",
+                "icon": "fa fa-columns",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "1010c6cf-bed5-4658-a949-8af8ae89870c",
+                        "label": "文章发布",
+                        "icon": "fa fa-file-text-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "9a6fd732-76a5-4b08-9524-3ab42666552c"
+                    },
+                    {
+                        "id": "1f438a30-2db5-41cc-9ac2-ef9c0c279a5d",
+                        "label": "子页管理",
+                        "icon": "fa fa-file-powerpoint-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "9a6fd732-76a5-4b08-9524-3ab42666552c"
+                    },
+                    {
+                        "id": "fbe65a39-d3a0-4600-ab11-59ac01f918ac",
+                        "label": "首页配置",
+                        "icon": "fa fa-cogs",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "9a6fd732-76a5-4b08-9524-3ab42666552c"
+                    }
+                ],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            },
+            {
+                "id": "9f70b427-9c46-4d70-8f5c-4e7e7c48571c",
+                "label": "插件演示",
+                "icon": "fa fa-send-o",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "1",
+        "label": "系统管理",
+        "icon": "fa fa-desktop",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "7ae94059-9aa5-48eb-8330-4e2a6565b193",
+                "label": "行政区域",
+                "icon": "fa fa-leaf",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "4efd37bf-e3ef-4ced-8248-58eba046d78b",
+                "label": "数据字典",
+                "icon": "fa fa-book",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "7adc5a16-54a4-408e-a101-2ddab8117d67",
+                "label": "单据编码",
+                "icon": "fa fa-barcode",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "91736eda-da51-4ff0-8c6d-fae446440d7d",
+                "label": "字典分类",
+                "icon": "",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "21",
+                "label": "系统功能",
+                "icon": "fa fa-navicon",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "f21fa3a0-c523-4d02-99ca-fd8dd3ae3d59",
+                "label": "系统日志",
+                "icon": "fa fa-warning",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "90c1d32d-be34-4e23-919f-2b25e33fafa2",
+                "label": "接口管理",
+                "icon": "fa fa-address-book",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "12d27d7e-c682-470b-ad2e-38d0d09f2ace",
+                "label": "logo设置",
+                "icon": "fa fa-cog",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "1"
+            },
+            {
+                "id": "00386ec3-327c-4070-a045-16edb07f4629",
+                "label": "数据权限",
+                "icon": "fa fa-reorder",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "00b8c220-8fb5-47e8-b2eb-fbcaf56d9e5a",
+                        "label": "普通权限",
+                        "icon": "fa fa-briefcase",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "00386ec3-327c-4070-a045-16edb07f4629"
+                    },
+                    {
+                        "id": "f8310a3b-86c4-428f-bdb1-64280e67c920",
+                        "label": "自定义表单权限",
+                        "icon": "fa fa-reorder",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "00386ec3-327c-4070-a045-16edb07f4629"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "90c6dfd3-18ae-4f27-b5f2-5c7135cf7585",
+                "label": "桌面配置",
+                "icon": "fa fa-home",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "f68d920f-dd86-4020-945f-f86b47b4f5d8",
+                        "label": "桌面设置",
+                        "icon": "fa fa-cogs",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "90c6dfd3-18ae-4f27-b5f2-5c7135cf7585"
+                    },
+                    {
+                        "id": "b0dcc72d-3a39-47e5-8537-a4cc3f4d830e",
+                        "label": "统计配置",
+                        "icon": "fa fa-balance-scale",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "90c6dfd3-18ae-4f27-b5f2-5c7135cf7585"
+                    },
+                    {
+                        "id": "be32ea1b-1d66-4f91-b867-631eddc2425b",
+                        "label": "消息列配置",
+                        "icon": "fa fa-tasks",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "90c6dfd3-18ae-4f27-b5f2-5c7135cf7585"
+                    },
+                    {
+                        "id": "eba6ab30-28ad-48a7-9d9e-a35d73bde7e5",
+                        "label": "图表配置",
+                        "icon": "fa fa-line-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "90c6dfd3-18ae-4f27-b5f2-5c7135cf7585"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "a2524124-a9cb-4439-abac-235f8992be10",
+                "label": "消息管理",
+                "icon": "fa fa-bell-o",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "12a93336-53cf-4b6d-9cd1-df283a9a539b",
+                        "label": "消息用户注册",
+                        "icon": "fa fa-gears",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "a2524124-a9cb-4439-abac-235f8992be10"
+                    },
+                    {
+                        "id": "6e74fbfe-f8c8-4487-9b89-897d7a51b930",
+                        "label": "消息策略",
+                        "icon": "fa fa-comments",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "a2524124-a9cb-4439-abac-235f8992be10"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "0dcef6aa-3f44-415e-aa23-c2c376c0daf4",
+                "label": "多语言管理",
+                "icon": "fa fa-file-text-o",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "734ace1c-637b-4ad3-8ba7-e6c415d90dd8",
+                        "label": "语言类型维护",
+                        "icon": "fa fa-diamond",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "0dcef6aa-3f44-415e-aa23-c2c376c0daf4"
+                    },
+                    {
+                        "id": "9e62715d-036c-4958-b755-93c020836fd3",
+                        "label": "数据字典翻译",
+                        "icon": "fa fa-book",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "0dcef6aa-3f44-415e-aa23-c2c376c0daf4"
+                    },
+                    {
+                        "id": "d877521f-288d-4208-b69a-1679e3e1eab4",
+                        "label": "系统功能翻译",
+                        "icon": "fa fa-desktop",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "0dcef6aa-3f44-415e-aa23-c2c376c0daf4"
+                    },
+                    {
+                        "id": "5ed58504-62f7-4884-9108-f96d732fc84e",
+                        "label": "翻译管理",
+                        "icon": "fa fa-clone",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "0dcef6aa-3f44-415e-aa23-c2c376c0daf4"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "b9f9df92-8ac5-46e2-90ac-68c5c2e034c3",
+                "label": "微信企业号",
+                "icon": "fa fa-weixin",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "a977d91e-77b7-4d60-a7ad-dfbc138f7c0a",
+                        "label": "企业号设置",
+                        "icon": "fa fa-plug",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "b9f9df92-8ac5-46e2-90ac-68c5c2e034c3"
+                    },
+                    {
+                        "id": "5cc9d2d9-e097-4b51-9b9e-84ca9f1a0ab5",
+                        "label": "企业号部门",
+                        "icon": "fa fa-sitemap",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "b9f9df92-8ac5-46e2-90ac-68c5c2e034c3"
+                    },
+                    {
+                        "id": "4d0f2e44-f68f-41fd-a55c-40ac67453ef4",
+                        "label": "企业号成员",
+                        "icon": "fa fa-users",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "b9f9df92-8ac5-46e2-90ac-68c5c2e034c3"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "2dbe76be-9261-4c92-811e-c085c8dcf0fc",
+                "label": "任务调度",
+                "icon": "fa fa-telegram",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "3d8a1b4d-e650-4a5a-9ca3-31361755cfe2",
+                        "label": "任务设计",
+                        "icon": "fa fa-gears",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "2dbe76be-9261-4c92-811e-c085c8dcf0fc"
+                    },
+                    {
+                        "id": "ee5d6dc3-26fe-4d75-8f50-afce4b5100ff",
+                        "label": "任务日志",
+                        "icon": "fa fa-file-text-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "2dbe76be-9261-4c92-811e-c085c8dcf0fc"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "71fdd51a-72d6-48a7-ac81-76817a54cbac",
+                "label": "Excel配置",
+                "icon": "fa fa-file-excel-o",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "23801918-10c6-4fe3-9f1c-554548834f16",
+                        "label": "导入配置",
+                        "icon": "fa fa-sign-in",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "71fdd51a-72d6-48a7-ac81-76817a54cbac"
+                    },
+                    {
+                        "id": "b5762428-c123-4072-92c8-8a382af6a4ee",
+                        "label": "导出配置",
+                        "icon": "fa fa-sign-out",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "71fdd51a-72d6-48a7-ac81-76817a54cbac"
+                    }
+                ],
+                "parentId": "1"
+            },
+            {
+                "id": "7cec0a0f-7204-4240-b009-312fa0c11cbf",
+                "label": "数据管理",
+                "icon": "fa fa-database",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "34e362f4-c220-4fb7-b3f0-288c83417cb3",
+                        "label": "数据库连接",
+                        "icon": "fa fa-plug",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "7cec0a0f-7204-4240-b009-312fa0c11cbf"
+                    },
+                    {
+                        "id": "2f820f6e-ae2e-472f-82cc-0129a2a57597",
+                        "label": "数据表管理",
+                        "icon": "fa fa-table",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "7cec0a0f-7204-4240-b009-312fa0c11cbf"
+                    },
+                    {
+                        "id": "d967ce5c-1bdf-4bbf-967b-876abc3ea245",
+                        "label": "数据源管理",
+                        "icon": "fa fa-bullseye",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "7cec0a0f-7204-4240-b009-312fa0c11cbf"
+                    },
+                    {
+                        "id": "365ef673-a83c-4c73-884b-aa62c5d71286",
+                        "label": "常用字段",
+                        "icon": "fa fa-microchip",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "7cec0a0f-7204-4240-b009-312fa0c11cbf"
+                    }
+                ],
+                "parentId": "1"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "2",
+        "label": "单位组织",
+        "icon": "fa fa-coffee",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "8",
+                "label": "公司管理",
+                "icon": "fa fa-sitemap",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "2"
+            },
+            {
+                "id": "9",
+                "label": "部门管理",
+                "icon": "fa fa-th-list",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "2"
+            },
+            {
+                "id": "0c941dbb-1e11-4f2a-b706-052d7324ee52",
+                "label": "岗位管理",
+                "icon": "fa fa-graduation-cap",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "2"
+            },
+            {
+                "id": "11",
+                "label": "角色管理",
+                "icon": "fa fa-paw",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "2"
+            },
+            {
+                "id": "10",
+                "label": "用户管理",
+                "icon": "fa fa-user",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "2"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "dc5701b6-989b-48ff-a333-b04d10ebba00",
+        "label": "表单应用",
+        "icon": "fa fa-table",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "a57993fa-5a94-44a8-a330-89196515c1d9",
+                "label": "表单设计",
+                "icon": "fa fa-puzzle-piece",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "dc5701b6-989b-48ff-a333-b04d10ebba00"
+            },
+            {
+                "id": "8a6ed6e1-e3ba-4c4e-b3fe-e4d8dd8e2618",
+                "label": "表单管理",
+                "icon": "fa fa-list-alt",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "dc5701b6-989b-48ff-a333-b04d10ebba00"
+            },
+            {
+                "id": "96e74799-8fa9-4d51-b776-f1c7517681de",
+                "label": "表单实例",
+                "icon": "fa fa-window-restore",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "803c5ea6-82cd-4f87-aceb-aa43730767c9",
+                        "label": "测试表单管理",
+                        "icon": "fa fa-table",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "96e74799-8fa9-4d51-b776-f1c7517681de"
+                    },
+                    {
+                        "id": "619b20da-f766-463d-b866-12c25d4002ed",
+                        "label": "报价审批23",
+                        "icon": "fa fa-grav",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "96e74799-8fa9-4d51-b776-f1c7517681de"
+                    },
+                    {
+                        "id": "b64fcce0-df75-4d63-9dcc-8a7f067ac39b",
+                        "label": "子主表单",
+                        "icon": "",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "96e74799-8fa9-4d51-b776-f1c7517681de"
+                    },
+                    {
+                        "id": "c210db29-4a00-4438-bfb9-95904bb0e005",
+                        "label": "费用报销单",
+                        "icon": "",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "96e74799-8fa9-4d51-b776-f1c7517681de"
+                    }
+                ],
+                "parentId": "dc5701b6-989b-48ff-a333-b04d10ebba00"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "5",
+        "label": "流程应用",
+        "icon": "fa fa-share-alt",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "1e89a1bf-32fc-4cc9-a7e7-42ae3f066e3f",
+                "label": "流程设计",
+                "icon": "fa fa-edit",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "5"
+            },
+            {
+                "id": "56ce34c2-882e-47d1-b12d-5036e3b79fcf",
+                "label": "流程任务",
+                "icon": "fa fa-balance-scale",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "5"
+            },
+            {
+                "id": "2c8c5982-02cc-455d-9203-5c40c72cd75c",
+                "label": "流程委托",
+                "icon": "fa fa-coffee",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "5"
+            },
+            {
+                "id": "0ae30eda-b55c-42ad-8545-2243e45a8e83",
+                "label": "流程监控",
+                "icon": "fa fa-eye",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "5"
+            },
+            {
+                "id": "f0dc171b-939c-4f94-b57a-b8db1da084b2",
+                "label": "系统流程实例",
+                "icon": "fa fa-industry",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "6c3dad04-6e48-47d9-b090-9d48ea9a802f",
+                        "label": "请假管理",
+                        "icon": "fa fa-user-circle-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "f0dc171b-939c-4f94-b57a-b8db1da084b2"
+                    }
+                ],
+                "parentId": "5"
+            },
+            {
+                "id": "cf94a245-9050-4077-a52d-5d8c762c13c7",
+                "label": "签章管理",
+                "icon": "fa fa-registered",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "5"
+            },
+            {
+                "id": "be9412b1-db4f-4d6d-a79f-502b2d17bb54",
+                "label": "旧版流程",
+                "icon": "fa fa-reorder",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "f63a252b-975f-4832-a5be-1ce733bc8ece",
+                        "label": "流程设计",
+                        "icon": "fa fa-share-alt",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "be9412b1-db4f-4d6d-a79f-502b2d17bb54"
+                    },
+                    {
+                        "id": "021a59b0-2589-4f9e-8140-6052177a967c",
+                        "label": "我的任务",
+                        "icon": "fa fa-file-word-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "be9412b1-db4f-4d6d-a79f-502b2d17bb54"
+                    },
+                    {
+                        "id": "6a67a67f-ef07-41e7-baa5-00bc5f662a76",
+                        "label": "工作委托",
+                        "icon": "fa fa-coffee",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "be9412b1-db4f-4d6d-a79f-502b2d17bb54"
+                    },
+                    {
+                        "id": "27b6c487-a2d9-4a3a-a40d-dbba27a53d26",
+                        "label": "流程监控",
+                        "icon": "fa fa-eye",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "be9412b1-db4f-4d6d-a79f-502b2d17bb54"
+                    }
+                ],
+                "parentId": "5"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "d0971af6-66a3-4875-a200-321e9afb9e0e",
+        "label": "移动管理",
+        "icon": "fa fa-android",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "21648407-79aa-4c6b-847f-0e27337108f0",
+                "label": "移动开发向导",
+                "icon": "fa fa-paper-plane",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "d0971af6-66a3-4875-a200-321e9afb9e0e"
+            },
+            {
+                "id": "c32c15a2-8c69-4b96-8462-675a84f25acb",
+                "label": "移动功能",
+                "icon": "fa fa-cubes",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "d0971af6-66a3-4875-a200-321e9afb9e0e"
+            },
+            {
+                "id": "886f1178-6318-4d82-a9bb-032b3ffc5f10",
+                "label": "首页图片",
+                "icon": "fa fa-file-picture-o",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "d0971af6-66a3-4875-a200-321e9afb9e0e"
+            },
+            {
+                "id": "50c1a78f-39d1-431c-875f-075c27d2ba28",
+                "label": "logo设置",
+                "icon": "fa fa-cog",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "d0971af6-66a3-4875-a200-321e9afb9e0e"
+            },
+            {
+                "id": "5938418b-de82-4c4e-aca8-2f20ab02a37c",
+                "label": "桌面设置",
+                "icon": "fa fa-cogs",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "d0971af6-66a3-4875-a200-321e9afb9e0e"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "6",
+        "label": "报表应用",
+        "icon": "fa fa-area-chart",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "92a535c9-4d4b-4500-968d-a142e671c09b",
+                "label": "报表设计",
+                "icon": "fa fa-cogs",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "6"
+            },
+            {
+                "id": "d3b56ca9-64bd-4907-b320-c4b6ac7a26b9",
+                "label": "专业报表",
+                "icon": "fa fa-bar-chart",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "6"
+            },
+            {
+                "id": "a6c0c65c-298e-4c13-9064-a7ca0bd0f9d7",
+                "label": "报表发布",
+                "icon": "fa fa-area-chart",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "6"
+            },
+            {
+                "id": "fcd05f77-20f3-4e0c-8f8b-afb2daf25e28",
+                "label": "报表实例",
+                "icon": "fa fa-file-powerpoint-o",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "c482935d-4a17-4293-b636-4cab45ee75da",
+                        "label": "物流订单合同",
+                        "icon": "fa fa-wpexplorer",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "fcd05f77-20f3-4e0c-8f8b-afb2daf25e28"
+                    },
+                    {
+                        "id": "90954e0e-0b1a-41aa-9862-55721de192fb",
+                        "label": "销售图表",
+                        "icon": "fa fa-area-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "fcd05f77-20f3-4e0c-8f8b-afb2daf25e28"
+                    },
+                    {
+                        "id": "1018eaba-421a-4fc7-897e-51809d3ea9a7",
+                        "label": "销售列表",
+                        "icon": "fa fa-area-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "fcd05f77-20f3-4e0c-8f8b-afb2daf25e28"
+                    },
+                    {
+                        "id": "5ba1bb15-748c-4896-afc7-2ae1c1dd1c53",
+                        "label": "销售混合",
+                        "icon": "fa fa-area-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "fcd05f77-20f3-4e0c-8f8b-afb2daf25e28"
+                    }
+                ],
+                "parentId": "6"
+            },
+            {
+                "id": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb",
+                "label": "简洁报表",
+                "icon": "fa fa-wpforms",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "ca32c769-7b89-4282-9a5d-3b3c94009bbb",
+                        "label": "代码报表",
+                        "icon": "fa fa-user-circle-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb"
+                    },
+                    {
+                        "id": "affacee1-41a3-4c7b-8804-f1c1926babbd",
+                        "label": "采购报表",
+                        "icon": "fa fa-bar-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb"
+                    },
+                    {
+                        "id": "ff1823b5-a966-4e6c-83de-807854f4f0fb",
+                        "label": "销售报表",
+                        "icon": "fa fa-line-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb"
+                    },
+                    {
+                        "id": "901e6122-985d-4c84-8d8c-56560520f6ed",
+                        "label": "仓存报表",
+                        "icon": "fa fa-area-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb"
+                    },
+                    {
+                        "id": "9db71a92-2ecb-496c-839f-7a82bc22905d",
+                        "label": "收支报表",
+                        "icon": "fa fa-pie-chart",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "c2da2f51-f9b2-4a0b-a8fe-1ab65caee7cb"
+                    }
+                ],
+                "parentId": "6"
+            }
+        ],
+        "parentId": "0"
+    },
+    {
+        "id": "4",
+        "label": "扩展应用",
+        "icon": "fa fa-globe",
+        "hasChildren": true,
+        "items": [
+            {
+                "id": "04c7256f-e0f1-498f-8a59-c080db2a68cd",
+                "label": "OA办公",
+                "icon": "fa fa-copy",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "e35d24ce-8a6a-46b9-8b3f-6dc864a8f342",
+                        "label": "新闻中心",
+                        "icon": "fa fa-feed",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "6252983c-52f5-402c-991b-ad19a9cb1f94",
+                        "label": "通知公告",
+                        "icon": "fa fa-volume-up",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "23713d3a-810f-422d-acd5-39bec28ce47e",
+                        "label": "日程管理",
+                        "icon": "fa fa-calendar",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "91dfe7f6-36ae-4fd8-a91f-c0a0b1a198d6",
+                        "label": "电子签章",
+                        "icon": "fa fa-registered",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "80f26b98-6ad5-47aa-b8e4-4bffab4b4123",
+                        "label": "模板导出",
+                        "icon": "fa fa-bars",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "04b88c96-8d99-45ec-956c-444efa630020",
+                        "label": "文件管理",
+                        "icon": "fa fa-jsfiddle",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    },
+                    {
+                        "id": "c6b80ed5-b0cb-4844-ba1a-725d2cb4f935",
+                        "label": "邮件中心",
+                        "icon": "fa fa-send",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "04c7256f-e0f1-498f-8a59-c080db2a68cd"
+                    }
+                ],
+                "parentId": "4"
+            },
+            {
+                "id": "4d4065aa-ec95-4b1e-96d2-57ce3e2d0dec",
+                "label": "销售管理",
+                "icon": "fa fa-user-circle-o",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "cf8ec28f-f58a-4190-ac73-e625f9498a93",
+                        "label": "商机管理",
+                        "icon": "fa fa-assistive-listening-systems",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "4d4065aa-ec95-4b1e-96d2-57ce3e2d0dec"
+                    },
+                    {
+                        "id": "27ee2f18-9722-4d11-9dd6-6b9d9706a343",
+                        "label": "客户管理",
+                        "icon": "fa fa-vcard",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "4d4065aa-ec95-4b1e-96d2-57ce3e2d0dec"
+                    },
+                    {
+                        "id": "cb94e955-8ad2-4835-9abc-462b950e0eff",
+                        "label": "开票信息",
+                        "icon": "fa fa-file-excel-o",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "4d4065aa-ec95-4b1e-96d2-57ce3e2d0dec"
+                    },
+                    {
+                        "id": "b352f049-4331-4b19-ac22-e379cb30bd55",
+                        "label": "客户订单",
+                        "icon": "fa fa-modx",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "4d4065aa-ec95-4b1e-96d2-57ce3e2d0dec"
+                    }
+                ],
+                "parentId": "4"
+            },
+            {
+                "id": "ec403677-9e52-4881-b582-e75cac93cf5d",
+                "label": "工单管理",
+                "icon": "fa fa-id-card-o",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "4"
+            },
+            {
+                "id": "ee34a592-86e9-44f9-921c-32f80d957281",
+                "label": "消息队列",
+                "icon": "fa fa-sort-numeric-asc",
+                "hasChildren": true,
+                "items": [
+                    {
+                        "id": "ea60e1e8-8db3-434e-bcac-d1116a29040f",
+                        "label": "队列演示",
+                        "icon": "fa fa-blind",
+                        "hasChildren": false,
+                        "items": [],
+                        "parentId": "ee34a592-86e9-44f9-921c-32f80d957281"
+                    }
+                ],
+                "parentId": "4"
+            },
+            {
+                "id": "6222ba24-d922-4947-bc30-57b0325673a5",
+                "label": "库存示例",
+                "icon": "fa fa-window-restore",
+                "hasChildren": false,
+                "items": [],
+                "parentId": "4"
+            }
+        ],
+        "parentId": "0"
+    }
+]
