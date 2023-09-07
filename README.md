@@ -1,6 +1,3 @@
-
-## 功能
-
 -   [x] Element Plus
 -   [x] vite 3
 -   [x] pinia
@@ -10,8 +7,6 @@
 -   [x] 表格
 -   [x] Tab 选项卡
 -   [x] 表单
--   [x] 图表 :bar_chart:
--   [x] 富文本/markdown编辑器
 -   [x] 图片拖拽/裁剪上传
 -   [x] 权限管理
 -   [x] 三级菜单
