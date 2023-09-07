@@ -5,19 +5,19 @@
         </template>
      </el-input>
      <el-table class="projectTable" :data="projectInfo" :span-method="spanMethod" >
-      <el-table-column fixed prop="project_Id" label="项目编号" width="150"/>
-      <el-table-column  prop="project_Name" label="项目名称" width="150" />
-      <el-table-column  prop="customer" label="客户" width="150"/>
-      <el-table-column  prop="is_Installed" label="是否安装" width="150"/>
-      <el-table-column  prop="is_Exported" label="是否出口" width="150"/>
-      <el-table-column  prop="design_Location" label="设计地点" width="150"/>
-      <el-table-column  prop="process_Location" label="加工地点" width="150"/>
-      <el-table-column  prop="company_Installation" label="安装调试公司" width="150" />
-      <el-table-column  prop="staff_Market" label="市场负责人" width="150" />
-      <el-table-column  prop="staff_Machinery" label="机械负责人" width="150"/>
-      <el-table-column  prop="staff_Electrical" label="电气负责人" width="150"/>
-      <el-table-column  prop="date_Sign" label="合同签订时间" width="150"/>
-      <el-table-column  prop="date_Send" label="合同发货时间" width="150"/>
+        <el-table-column fixed prop="project_Id" label="项目编号" width="150"/>
+        <el-table-column  prop="project_Name" label="项目名称" width="150" />
+        <el-table-column  prop="customer" label="客户" width="150"/>
+        <el-table-column  prop="is_Installed" label="是否安装" width="150"/>
+        <el-table-column  prop="is_Exported" label="是否出口" width="150"/>
+        <el-table-column  prop="design_Location" label="设计地点" width="150"/>
+        <el-table-column  prop="process_Location" label="加工地点" width="150"/>
+        <el-table-column  prop="company_Installation" label="安装调试公司" width="150" />
+        <el-table-column  prop="staff_Market" label="市场负责人" width="150" />
+        <el-table-column  prop="staff_Machinery" label="机械负责人" width="150"/>
+        <el-table-column  prop="staff_Electrical" label="电气负责人" width="150"/>
+        <el-table-column  prop="date_Sign" label="合同签订时间" width="150"/>
+        <el-table-column  prop="date_Send" label="合同发货时间" width="150"/>
     </el-table>
 </template>
 

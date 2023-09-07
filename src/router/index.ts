@@ -167,7 +167,7 @@ const router = createRouter({
 });
 
 
-//这里做了一个全局路由守卫，用来鉴权
+
 router.beforeEach((to, from, next) => {
     document.title = `${to.meta.title} `;
     const role = localStorage.getItem('ms_username');
