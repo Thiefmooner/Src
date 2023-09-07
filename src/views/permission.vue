@@ -107,18 +107,15 @@ const data: Tree[] = [
 
 const permiss = usePermissStore();
 
-// 获取当前权限
+
 const checkedKeys = ref<string[]>([]);
 const getPremission = () => {
-	// 请求接口返回权限
 	checkedKeys.value = permiss.defaultList[role.value];
 };
 getPremission();
 
-// 保存权限
 const tree = ref<InstanceType<typeof ElTree>>();
 const onSubmit = () => {
-	// 获取选中的权限
 	console.log(tree.value!.getCheckedKeys(false));
 };
 

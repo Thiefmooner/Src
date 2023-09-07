@@ -69,7 +69,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
 	formEl.validate((valid: boolean) => {
 		if (valid) {
 			/**
-			 * 
 			 * 这里暂时没对password做处理！！！都可以登录
 			 */
 			//先告诉你登录成功
