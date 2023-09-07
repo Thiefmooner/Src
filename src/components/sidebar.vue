@@ -1,5 +1,5 @@
 <template>
-        <div class="sidebar">
+    <div class="sidebar">
         <el-menu class="sidebar-el-menu" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff"><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
             <template v-for="item in obj.item" :key="item.id">
                 <template v-if="item.hasChildren == true">
