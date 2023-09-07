@@ -11,12 +11,7 @@
 					</el-input>
 				</el-form-item>
 				<el-form-item prop="password">
-					<el-input
-						type="password"
-						placeholder="password"
-						v-model="param.password"
-						@keyup.enter="submitForm(login)"
-					>
+					<el-input type="password" placeholder="password" v-model="param.password" @keyup.enter="submitForm(login)">
 						<template #prepend>
 							<el-button :icon="Lock"></el-button>
 						</template>
@@ -59,7 +54,13 @@ const rules: FormRules = {
 			trigger: 'blur'
 		}
 	],
-	password: [{ required: true, message: '请输入密码', trigger: 'blur' }]
+	password: [
+		{ 
+			required: true,
+			message: '请输入密码', 
+			trigger: 'blur' 
+		}
+	]
 };
 const permiss = usePermissStore();
 const login = ref<FormInstance>();
@@ -67,10 +68,20 @@ const submitForm = (formEl: FormInstance | undefined) => {
 	if (!formEl) return;
 	formEl.validate((valid: boolean) => {
 		if (valid) {
+			/**
+			 * 
+			 * 这里暂时没对password做处理！！！都可以登录
+			 */
+			//先告诉你登录成功
 			ElMessage.success('登录成功');
+			//先把输入的用户名存到localStroage中的ms_username
 			localStorage.setItem('ms_username', param.username);
+			//如果是admin，就把admin的权限作为defaultList的参数；反之user的权限作为参数
+			//keys接受一个对应的权限列表
 			const keys = permiss.defaultList[param.username == 'admin' ? 'admin' : 'user'];
+			//重置用户权限
 			permiss.handleSet(keys);
+			//存储用户的权限列表到ms_keys
 			localStorage.setItem('ms_keys', JSON.stringify(keys));
 			router.push('/');
 		} else {
