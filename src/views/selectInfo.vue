@@ -21,14 +21,47 @@
           searchResult: [
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-032',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'sacasvc',staff_Machinery:'savsabvad',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '西门子上辅机',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'savasbebh'},
+          {project_Id: 'NEWUBK-2020-44125',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '西门子上辅机',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-18441',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '西门子上辅机',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '西门子上辅机',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-48419',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-45566',project_Name: '西门子上辅机',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-12255',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-28242',project_Name: '西门子上辅机',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-11111',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-18419',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
           {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
-          ]  //文件信息存到这里就行
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-12686',project_Name: '西门子上辅机',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '西门子上辅机',customer: '江苏无锡派克',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-03732',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+          {project_Id: 'NEWUBK-2020-19888',project_Name: '20工位小药系统',customer: '山东华盛集团',staff_Software:'jack',staff_Machinery:'jack',staff_Electrical:'jack'},
+
+        
+        
+        
+        
+        
+         ]  //文件信息存到这里就行
         }
       },
       computed:{//搜索的计算属性

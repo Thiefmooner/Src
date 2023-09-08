@@ -1,4 +1,4 @@
-import axios, {AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig} from 'axios';
+import axios, { AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig } from 'axios';
 
 const service:AxiosInstance = axios.create({
     timeout: 5000
