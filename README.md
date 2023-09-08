@@ -46,12 +46,6 @@ npm run build   //执行构建命令，生成的dist文件夹放在服务器下�
 >
 > vite版本："vite": "^3.0.0"
 
-
-
-### 安装步骤
-
-
-
 ### Sidebar.vue的el-menu
 
 #### 侧边栏的数据结构说明：
@@ -135,8 +129,6 @@ el-sub-menu el-menu-item绑定index属性时候，后面必须是字符串！！
 #### 坑4：key值绑定
 
 有v-for的地方，就要有key值绑定！!主要用于dom diff算法，diff算法为同级比较，比较当前标签上的key还有他当前的标签名，如果key和标签名都一样时只移动，不会重新创建元素和删除元素
-
-
 
 ### selectInfo.vue
 
@@ -250,7 +242,7 @@ const spanMethod = getRowSpanMethod(projectInfo,['project_Id'])
 
 #### 数据结构实例：
 
-```json
+```javascript
 {
    project_Id: 'NEWUBK-2022140-022',
    project_Name: 'Tom',
@@ -325,11 +317,11 @@ fileArea计算属性computed和刚才如出一辙，是个动态变化的属性�
 
 利用`<template #default="{row}">`插槽功能，实现点击下载图标，下载文件功能
 
-这个文件下载我想了很久怎么实现，后端http请求？后经过询问得知，有url，那就简单多了
-
-其方法的本质是，外层遍历一圈icon图标，被放置在一个个的<a>标签之中，这些<a>标签指向一个个后端传回来的超链接
-
-`:href="row.url"`
+> 这个文件下载我想了很久怎么实现，后端http请求？后经过询问得知，有url，那就简单多了
+>
+> 其方法的本质是，外层遍历一圈icon图标，被放置在一个个的<a>标签之中，这些<a>标签指向一个个后端传回来的超链接
+>
+> `:href="row.url"`
 
 href指向row.url
 
@@ -345,3 +337,158 @@ href指向row.url
 
 ### request.js
 
+#### 创建axios实例,规定超时时间5000ms
+
+```typescript
+const service:AxiosInstance = axios.create({
+  timeout: 5000
+});
+```
+
+#### 二次封装请求拦截器，错误用Promise.reject()处理
+
+```typescript
+service.interceptors.request.use(
+  (config: AxiosRequestConfig) => {
+    return config;
+  },
+  (error: AxiosError) => {
+    console.log(error);
+    return Promise.reject();
+  }
+);
+```
+
+#### 二次封装响应拦截器
+
+```typescript
+service.interceptors.response.use(
+    (response: AxiosResponse) => {
+        if (response.status === 200) {
+            return response;
+        } else {
+            Promise.reject();
+        }
+    },
+    (error: AxiosError) => {
+        console.log(error);
+        return Promise.reject();
+    }
+);
+```
+
+#### 导出axios实例
+
+```javascript
+export default service ;
+```
+
+### Login.vue
+
+#### 用户名这里双向绑定内部数据，param.username
+
+```vue
+<el-input v-model="param.username" >
+```
+
+#### 密码栏这里双向绑定内部数据，param.password
+
+`@keyup.enter`意思为按下enter按键会触发后面的`submitForm(login)`，login为参数
+
+```vue
+<el-input type="password" 
+          v-model="param.password" 
+          @keyup.enter="submitForm(login)"
+          >
+```
+
+#### submitForm（）是什么呢？登录校验逻辑
+
+```typescript
+const submitForm = (formEl: FormInstance | undefined) => {
+	if (!formEl) return;
+	formEl.validate((valid: boolean) => {
+		if (valid) {
+			/**
+			 * 这里暂时没对password做处理！！！都可以登录
+			 */
+			//先告诉你登录成功
+			ElMessage.success('登录成功');
+			//先把输入的用户名存到localStroage中的ms_username
+			localStorage.setItem('ms_username', param.username);
+			//如果是admin，就把admin的权限作为defaultList的参数；反之user的权限作为参数
+			//keys接受一个对应的权限列表
+			const keys = permiss.defaultList[param.username == 'admin' ? 'admin' : 'user'];
+			//重置用户权限
+			permiss.handleSet(keys);
+			//存储用户的权限列表到ms_keys
+			localStorage.setItem('ms_keys', JSON.stringify(keys));
+			router.push('/');
+		} else {
+			ElMessage.error('登录成功');
+			return false;
+		}
+	});
+};
+```
+
+注意引入FormInstance, FormRules
+
+```typescript
+import type { FormInstance, FormRules } from 'element-plus';
+```
+
+#### 然后用户框，密码框统一被塞进<el-form>里面，会发现有个:rules
+
+```typescript
+<el-form :model="param" :rules="rules" ref="login" label-width="0px">
+```
+
+#### 在内部data里面我是这么定义rules的
+
+```typescript
+const rules: FormRules = {
+	username: [
+		{
+			required: true,//required为true为必填，否则提醒输入
+			message: '请输入用户名',
+			trigger: 'blur'
+		}
+	],
+	password: [
+		{ 
+			required: true,//required为true为必填，否则提醒输入
+			message: '请输入密码', 
+			trigger: 'blur' 
+		}
+	]
+};
+```
+
+#### 移步到permiss.ts(pinia管理state数据流）,我们把权限通过permiss字段存储每个用户的权限，比如1->主界面权限
+
+```typescript
+export const usePermissStore = defineStore('permiss', {
+state: () => {
+		const keys = localStorage.getItem('ms_keys');
+		return {
+			key: keys ? JSON.parse(keys) : <string[]>[],
+			defaultList: <ObjectList>{
+				admin: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16'],
+				user: ['1', '2', '3', '11', '13', '14', '15']
+			}
+		};
+	},
+	actions: {
+		handleSet(val: string[]) {
+			this.key = val;
+		}
+	}
+});
+```
+
+#### 关于localStorage
+
+在登录的时候，就会把用户名存储到ms_username，通过username参数再去permiss.ts里查询对应的权限数组defaultList
+
+比如admin拥有所有权限['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']，再通过permiss.handleSet()重置权限（有则覆盖，无则初始化）
