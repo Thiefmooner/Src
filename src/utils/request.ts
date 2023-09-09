@@ -3,8 +3,6 @@ import axios, { AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig } f
 const service:AxiosInstance = axios.create({
     timeout: 5000
 });
-
-//post请求，CORS问题
 //const service2:AxiosInstance = axios.create({
    // baseURL:'http://192.168.3.21:1024/api/SampleData/SaveData?id=1&&value=111',
     //timeout: 5000
@@ -35,3 +33,5 @@ service.interceptors.response.use(
 );
 
 export default service ;
+
+
