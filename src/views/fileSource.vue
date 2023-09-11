@@ -27,7 +27,7 @@ import { ref,computed } from 'vue'
       children?: Tree[]
     }
     let search =ref('')
-//暂时mock数据，等后台处理好，将数据扔tableData数组即可
+    //暂时mock数据，等后台处理好，将数据扔tableData数组即可
     const tableData = [
     {
       name: 'Tom',
@@ -257,7 +257,7 @@ import { ref,computed } from 'vue'
     children: 'children',
     label: 'label',
     }
-//点击节点后会触发的函数，可以用作请求后台数据
+    //点击节点后会触发的函数，可以用作请求后台数据
     const handleNodeClick = (data: Tree) => {
     }
     const fileArea = computed(()=>{
