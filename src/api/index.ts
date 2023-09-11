@@ -6,3 +6,10 @@ export const fetchData = () => {
         method: 'get'
     });
 };
+
+export const getSideBarData = () => {
+    return request({
+        url: './sidebar.json',
+        method: 'get'
+    });
+}

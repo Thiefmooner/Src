@@ -40,6 +40,8 @@ import { useSidebarStore } from '../store/sidebar';
 import { useRoute } from 'vue-router';
 import  axios from 'axios';
 import {reactive} from 'vue'
+import { getSideBarData } from '../api';
+import Redo from 'wangeditor/dist/menus/redo';
 
 let obj :any = reactive({
     item:[
@@ -121,12 +123,7 @@ let obj :any = reactive({
     
 ]
 })
-
-
-
-//axios.get('http://192.168.3.21:1024/api/SampleData/getmodule').then(res => { 
-  //  obj.item = res.data
-//})
+getSideBarData().then(res=>obj.item = res.data)
 
 const route = useRoute();
 const onRoutes = computed(() => {
