@@ -1,0 +1,494 @@
+D:\admin-system\vue-manage-system-master
+├─.gitignore
+├─auto-imports.d.ts
+├─components.d.ts
+├─index.html
+├─LICENSE
+├─package-lock.json
+├─package.json
+├─README.md
+├─tsconfig.json
+├─tsconfig.node.json
+├─vite.config.ts
+├─src
+|  ├─App.vue
+|  ├─main.ts
+|  ├─vite-env.d.ts
+|  ├─views
+|  |   ├─403.vue
+|  |   ├─404.vue
+|  |   ├─charts.vue
+|  |   ├─dashboard.vue
+|  |   ├─donate.vue
+|  |   ├─editor.vue
+|  |   ├─export.vue
+|  |   ├─fileSource.vue
+|  |   ├─form.vue
+|  |   ├─home.vue
+|  |   ├─icon.vue
+|  |   ├─import.vue
+|  |   ├─login.vue
+|  |   ├─markdown.vue
+|  |   ├─permission.vue
+|  |   ├─projectInfo.vue
+|  |   ├─selectInfo.vue
+|  |   ├─table.vue
+|  |   ├─tabs.vue
+|  |   ├─upload.vue
+|  |   └user.vue
+|  ├─utils
+|  |   ├─request.ts
+|  |   └use-span-method.ts
+|  ├─store
+|  |   ├─permiss.ts
+|  |   ├─sidebar.ts
+|  |   └tags.ts
+|  ├─router
+|  |   └index.ts
+|  ├─components
+|  |     ├─header.vue
+|  |     ├─sidebar.vue
+|  |     ├─sidebarOriginal.vue
+|  |     └tags.vue
+|  ├─assets
+|  |   ├─img
+|  |   |  ├─img.jpg
+|  |   |  ├─login-bg.jpg
+|  |   |  └Newu.png
+|  |   ├─css
+|  |   |  ├─color-dark.css
+|  |   |  ├─icon.css
+|  |   |  └main.css
+|  ├─api
+|  |  └index.ts
+├─public
+|   ├─sidebar.json
+|   ├─table.json
+|   └template.xlsx
+├─.vscode
+|    └launch.json
+├─.git
+|  ├─.MERGE_MSG.swp
+|  ├─COMMIT_EDITMSG
+|  ├─config
+|  ├─description
+|  ├─FETCH_HEAD
+|  ├─HEAD
+|  ├─index
+|  ├─ORIG_HEAD
+|  ├─refs
+|  |  ├─tags
+|  |  ├─remotes
+|  |  |    ├─origin
+|  |  |    |   └master
+|  |  ├─heads
+|  |  |   └master
+|  ├─objects
+|  |    ├─pack
+|  |    ├─info
+|  |    ├─ff
+|  |    | ├─1683a7f85d2c735e8fa8a3d8f784671b31b977
+|  |    | ├─773960948c703ad87d6972ae60c44148a45506
+|  |    | └eaaae6fa7d718a36bc8f7b3ec4742c8622fc30
+|  |    ├─fe
+|  |    | ├─24411edf732f2d1023f887998bb64250a8adb4
+|  |    | ├─4749dce49732dff787ed24ce56d71162a15e21
+|  |    | └dd8480e28384f3feb342cb912893bd44df2f2a
+|  |    ├─fd
+|  |    | ├─60cf2018fda0569bb01a51f94f38fdf3566f8b
+|  |    | └f49cbd578d39d93fc3e8f628ae6309987f3fd0
+|  |    ├─fb
+|  |    | ├─380f5393d22d634d19f4eb9cdec92070c09df2
+|  |    | └e9e90488e12a2103d5da729de890432aef09c5
+|  |    ├─fa
+|  |    | └6575051e90df4b7f66fd3757a23eafb57500e2
+|  |    ├─f9
+|  |    | ├─24427c5fee214a6302a3d171047a8dac6f846a
+|  |    | └83fe9462c9a7f755e3d925c3605afa3f5c017b
+|  |    ├─f8
+|  |    | └5a1b255dc0551f05665d0fc2e143484e9315b2
+|  |    ├─f4
+|  |    | └5e8b01ca912f1868a65593de033548d9e0e0f7
+|  |    ├─f3
+|  |    | └3b1eed4797522384450974ef36ae346a6551c3
+|  |    ├─f2
+|  |    | └58e0912d452d43a8189c6710c7a258c9f8a493
+|  |    ├─f1
+|  |    | └daa4080dda6bf348ff1a189bedf2ebf4f45af8
+|  |    ├─f0
+|  |    | ├─2329ce535c3ccc30917672fb4f7b7f550ac661
+|  |    | ├─a3f4d3ab9838823e288a6e6d3c3798c977a36c
+|  |    | └fca28d365f739580602dbcac70e35f841791c6
+|  |    ├─ec
+|  |    | └939a884b43aabf93ccec32800a16f073ddfd54
+|  |    ├─eb
+|  |    | └c9f07410ddeb7d6f4d790fec6bcd2d1ea76d17
+|  |    ├─ea
+|  |    | ├─c4ed79fb35398a08b776e4b1e0a20313213e20
+|  |    | ├─d21280a42471204ecb207b6d51c341494be045
+|  |    | └e8443bb7d50b33d11154d0e6c7637faccee971
+|  |    ├─e9
+|  |    | ├─c20b93765e3884907fe071a22ac10b652dccdd
+|  |    | └dfca34e1cf3600b5dbdc2a9ea2083ef9abc33b
+|  |    ├─e8
+|  |    | └78e01137d5c2529849a381b5d54e32603e6aa4
+|  |    ├─e7
+|  |    | └2a0b77a38013de912d2373c7cdc6f63bd11fe8
+|  |    ├─e6
+|  |    | ├─654b89625e3c63a4c0231e741ae12b634a2303
+|  |    | ├─66d8c8391bbd52d4efc5ca30c9c2a47436eed5
+|  |    | ├─9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|  |    | └fac1d3a8c2942a4bf3bb6de12940d683839a44
+|  |    ├─e5
+|  |    | └4de8dfc75a30c285692b029d1c0dd13274fe8b
+|  |    ├─e4
+|  |    | └824366edd1e7eaf1440f8ede32c6e17fa4c22f
+|  |    ├─e3
+|  |    | ├─204cd5bb0bed7872bf1e4d4c3f092d732a4049
+|  |    | ├─50f501bd381b63303b98a65b9b9f966a5f4af0
+|  |    | └baf2b828437a8bc6a56a39078d4be251ce0727
+|  |    ├─e1
+|  |    | └92a61740e090da429508489f9c02c9a0c63d61
+|  |    ├─e0
+|  |    | ├─ca8c3d70360ec03db058c7e3782d9d39681411
+|  |    | └fad80bd8df276e7fa71ce77cb8b8b75ce1e613
+|  |    ├─dd
+|  |    | ├─a02fc1368b66cf1577ec8759fe233b47ab8901
+|  |    | └d2e322d56df5a58f240463b5e943fd6919cc5d
+|  |    ├─da
+|  |    | └1c3dd9d9db010db5f60afc3c572b834f3ad212
+|  |    ├─d8
+|  |    | ├─916ee0b09955f499569f4bee49ad338f2b2900
+|  |    | ├─e8a9789acf505c1deb2c771d492a4b388dbafd
+|  |    | └ecf9461a026d2f918f69f87d47695aab902154
+|  |    ├─d7
+|  |    | └0697b7339d21e8cb48472dc26f6ea246e3aad0
+|  |    ├─d4
+|  |    | ├─0c1320f6a66affe3ad435e0d5849fea2c135de
+|  |    | └35f9cae68d50ccc31f16b34fd6cfa0993389d3
+|  |    ├─d3
+|  |    | ├─5ab67ab71952d4fb085719f80a49789434fc9e
+|  |    | ├─5fa677214145018ccb2b47a2421cdeb4a4a100
+|  |    | └f5a12faa99758192ecc4ed3fc22c9249232e86
+|  |    ├─d2
+|  |    | └23d73f30965c3daba136f92a7bb71fcc529d7b
+|  |    ├─ce
+|  |    | └c3602b48d31de828db1ed956d62e4590692f02
+|  |    ├─cd
+|  |    | └41071101c13592a21606598742199253e83e8d
+|  |    ├─cb
+|  |    | └e6c002c49f03dc3957b415bbf6d2736e33a1c6
+|  |    ├─ca
+|  |    | └24fa2170eeab09eef5b53ed77c092415eaeef4
+|  |    ├─c7
+|  |    | └13270854f744418e72eaf84003df34d1e704b3
+|  |    ├─c4
+|  |    | └90d5a2a1153ba6b4f8f393c8e247f8d1111849
+|  |    ├─c1
+|  |    | └fcda718db35cc7b3a99245eb1fd68da099c97a
+|  |    ├─c0
+|  |    | └8d55be7f68776d9ae3353c4ec2287289bc8493
+|  |    ├─bf
+|  |    | ├─814313c2f9df567a71ded8e543cdf0fbac4e9f
+|  |    | └83327eef0b9430786f87929d6b242c30d0a311
+|  |    ├─bd
+|  |    | ├─2ba254a81a7a0118b9e0b921d6a9db7434431c
+|  |    | └a3f6082d2b0f3329f240f9a4194dfeb8456526
+|  |    ├─ba
+|  |    | ├─6d727a26421049059990c637d7d5536d2d405d
+|  |    | └e5d9ee513e5384c1d0a079157d27a3edbf6602
+|  |    ├─b8
+|  |    | └7a2a21c23f8fe468aa690dd52eb7d2fe65a909
+|  |    ├─b6
+|  |    | └11655afbaa32ef301e1c37a4f769a83a9b8eac
+|  |    ├─b3
+|  |    | └469748c215889bbda16d751e0bd31c7cca72eb
+|  |    ├─b2
+|  |    | ├─2f924751fc03871f0b1e4809b644adcb8c0ea4
+|  |    | └788e21514090e9a42ae2d85c12b0d23aaf0e41
+|  |    ├─b1
+|  |    | └a88a6d2522fa4add1b0344ef5cef1cfcbeda2a
+|  |    ├─b0
+|  |    | ├─4c36a6155d654f84b73adfb4e92ca4e8738425
+|  |    | └90b869ee5149ba43b4f189cd9d8e70a2ba2533
+|  |    ├─af
+|  |    | └70defe63d6b3805e83c0818665cbcf98fa8dcf
+|  |    ├─ae
+|  |    | ├─1e2af421a78f4fcbe9879846979b64a04eaad8
+|  |    | └a87be14d030ff44c0713242b634210b8782c8e
+|  |    ├─ad
+|  |    | └072d8d5a081770d6825bdd8fc5f9c169fe5bad
+|  |    ├─ab
+|  |    | └fc4fcb1c42c5ff86117e5f3b52e5984c1597df
+|  |    ├─aa
+|  |    | ├─0ee77639dd1610425dcc2d568d46d9a64ca00a
+|  |    | └fe84b54a083d3b075ff256eaf3636e4f94ff86
+|  |    ├─a9
+|  |    | └26e4460c062ff4d64452285f7054288c03a8ee
+|  |    ├─a8
+|  |    | └f2f72bb8ae5a03e6285b847010e24488952984
+|  |    ├─a4
+|  |    | ├─2635fe989b26b994bf0159a0c1cf271d726ec1
+|  |    | ├─a0a9676a82614490a18a776b239ce5b4d9ca97
+|  |    | └dfcf20f1f28140e52577d68de346a875649598
+|  |    ├─a3
+|  |    | ├─67985ffe44467d72d62b7b01b52e2a6b65d779
+|  |    | ├─72491dbeea89042eb2b965a7b5375d781659fb
+|  |    | └da5a3236c540e9e4841522927cde5fa34f6a4b
+|  |    ├─a1
+|  |    | └0a1a9c9e518dcdfdda60e297fcd92c9f7d7b1b
+|  |    ├─a0
+|  |    | └2d46d4024404284281aff66d68114b766ef392
+|  |    ├─9e
+|  |    | ├─25f0af9d116813156a3fb09816fc1ba48bc68b
+|  |    | └f35652e32c2fa76927589863cb481865022fad
+|  |    ├─9d
+|  |    | └31e2aed93c876bc048cf2f863cb2a847c901e8
+|  |    ├─9b
+|  |    | └8bebbe9ac9b4cac2d947d01d8337ecbb5c399c
+|  |    ├─95
+|  |    | └12bec2219ff7544cccf71357685030c8d1193a
+|  |    ├─92
+|  |    | └286bdca0edd28eef15f6c362e0bdf482137704
+|  |    ├─8f
+|  |    | └99fdc06f9451456ab83a3dcc7aba0e20fa4492
+|  |    ├─8e
+|  |    | ├─1cb95c1e521ca2127ff9bda40efe3b2fa024da
+|  |    | └75fd4c086e6c14ae24ebb6ccd535cb338cca6a
+|  |    ├─8b
+|  |    | ├─d64d79a8459b81ec19fc515c058f8282203cd8
+|  |    | └f7909e5a4701eaea2b8ccad84b9e9ecd41f36f
+|  |    ├─8a
+|  |    | └6342e5842052cd654f2b37b7aae3c44fc770f3
+|  |    ├─88
+|  |    | └b253cdb591f7a37e158e83328e6afc48d10094
+|  |    ├─87
+|  |    | └53f2a8b9c548b6340f28fafa6dac901f08474c
+|  |    ├─86
+|  |    | └1395f794c33c48d0d710450dc993f80396e729
+|  |    ├─84
+|  |    | ├─8fbafbed570e40219f5eec564ec89cfdf3bad8
+|  |    | └9a131f7a2e19cd683dfa7398336aebb5d5303f
+|  |    ├─82
+|  |    | ├─2b256d098f11a662f5ec09ec74bb075b091db4
+|  |    | └30f41e6a4fab5eae58ee9b4b4276b84e093730
+|  |    ├─81
+|  |    | ├─7e7538d6f8112242c39a7ca5eff29aa5c8d9e5
+|  |    | └d5b0e679197506b819876a467dbd2e8742c281
+|  |    ├─80
+|  |    | └ddff8728fe760248f36321e2f092b9fb384509
+|  |    ├─7e
+|  |    | ├─3a51b6bc5240979fba36abcad4cf18af345e51
+|  |    | └4df52ac6cd2c92a925ab62b573dae691901af8
+|  |    ├─7d
+|  |    | └3fd43b176cb43f78656178945eb47a612609e1
+|  |    ├─7b
+|  |    | └ef993d68f684080c8e533ea806faa850544e04
+|  |    ├─7a
+|  |    | └1126475acd7d1fafb0ac4c69dc8b29db7a43c7
+|  |    ├─79
+|  |    | └a4887b0b8d3ab3c29a12b574f318c37ce61666
+|  |    ├─78
+|  |    | └5ea94e7a404d5addd62628e15e896ae130b71b
+|  |    ├─77
+|  |    | └6323135fee917f458bb5d179df6a389ff2c62f
+|  |    ├─76
+|  |    | └bea9303d495e8430a8197cdd548bbe0568a2bd
+|  |    ├─75
+|  |    | └609aeb9a201f9254d72a1b4d4597fa69509ea4
+|  |    ├─74
+|  |    | ├─098dcb59cd7db7f2532ec97c2c48e8a5f0ba5d
+|  |    | └65c38dbb6078e5c32bd292776dda958ad52862
+|  |    ├─71
+|  |    | └a61ea7a8768a4ca0db34635d07d18b5f3c9357
+|  |    ├─70
+|  |    | └77e97223054bc52c240aee1ce78a57f5f19f45
+|  |    ├─6f
+|  |    | ├─3b3d09b13fd147dd6e24790c8902a6fe6922e6
+|  |    | └7e62f4c8fa7526a37d0bd7ef5c714482df246f
+|  |    ├─6c
+|  |    | └2165a9addbfc7245df016b970502642b8638dc
+|  |    ├─6b
+|  |    | └264c3feaf95511db5973790957095bbb0261c0
+|  |    ├─6a
+|  |    | └4f6f60905cb13b759df2119f15d1a8babdde99
+|  |    ├─68
+|  |    | ├─0ff4cf13c8552cced15c93ff4cfbfa4fcc49d6
+|  |    | └88ccb901d6a4128c4805b4a2f43d083e32c31d
+|  |    ├─67
+|  |    | └80b462db66a918d8d5ca91bde964bf0df72e5a
+|  |    ├─66
+|  |    | └ee482e4c30475de8c5725fe86b750f2a20be3f
+|  |    ├─65
+|  |    | └54e2fae6e83e246aa1658f0008793887c1dccd
+|  |    ├─64
+|  |    | └4e6290c6adfc6c7d761503f0b787ca93b52669
+|  |    ├─63
+|  |    | └c09bd3d539972980215852bb1713e681232362
+|  |    ├─62
+|  |    | └923985d7c3202e2dbd31874e2cbae3fe7c0c85
+|  |    ├─5f
+|  |    | ├─129b5485dbdf141d41fd830cac298de567b409
+|  |    | └705c1775dd6fbd0af099bd008fa4e882b1bd4a
+|  |    ├─5e
+|  |    | └ced9fa26a241f7c1bdb44b9b0d547937b5f623
+|  |    ├─5d
+|  |    | ├─17cf71510bddf174eddf79cfd612017421f122
+|  |    | └e04548bd4ad947f0eca1e732484f5d16dd363c
+|  |    ├─5c
+|  |    | ├─092cbfed827297f3decac165ee8f774a843621
+|  |    | └ca30be39337f5d6ac13b26f9c1b05aefbca49b
+|  |    ├─5a
+|  |    | └9851e48281f1aaebf65780211838a9a2c8e4d1
+|  |    ├─59
+|  |    | ├─973c3d72187cdba274ebfe4cbb1c83fdc1038d
+|  |    | └cd54905bca1b8121c4c1bdb95aa2ca7151717e
+|  |    ├─57
+|  |    | └dd0755480fef17cf6548c12fd97fca26b09750
+|  |    ├─55
+|  |    | ├─190de4f49b24bae1ee6ebdb617718e0382488a
+|  |    | └73139989968b02b958b1e6e574ddf4e86c1767
+|  |    ├─54
+|  |    | ├─6431979c9e3509999df9caefc325737698ce85
+|  |    | └ac86c5b026d417832677ff785eee6a6b5d81f1
+|  |    ├─53
+|  |    | └a7d5fa1b13e7ce8291ecc0387381cd4309748a
+|  |    ├─50
+|  |    | ├─4d78ffbecb5b266775d67f72318eb10032030b
+|  |    | └df425e89a400008882b35df2990a94f89f2b2f
+|  |    ├─4f
+|  |    | └a2f70ea3ca85373079f3280c4f010def764ecd
+|  |    ├─4b
+|  |    | └ba455e728394e9af657ae583600c69c7d8a219
+|  |    ├─4a
+|  |    | └f8d7a89562fe450a083f0ee2b4b3986e314702
+|  |    ├─49
+|  |    | └c50adeae055093cffa3d4eb99a39b25890d091
+|  |    ├─48
+|  |    | └0132a1f0c41ad10569ef98f1b9c0d0b7ff93fd
+|  |    ├─47
+|  |    | └5c658a9f3722249303ea75641647a781c159bb
+|  |    ├─46
+|  |    | └145dd8c4a92a89704228153fade778d9483416
+|  |    ├─44
+|  |    | └40abb19c1027eb6a8501ced1f932edc4d2bfda
+|  |    ├─42
+|  |    | └b7dd6af15b5ef11f9b8539f5dc926931036fd3
+|  |    ├─41
+|  |    | ├─4a10476161f2e214bd31c10f86a532843784e7
+|  |    | └977d71df9ee7b385f69f430ba238b7a3b8c594
+|  |    ├─40
+|  |    | └3adbc1e527906a4aa59558cd582c20bcd1d738
+|  |    ├─3f
+|  |    | └53b3352c3e9df4a0af4b4fe6b6e70dc68492bf
+|  |    ├─3e
+|  |    | ├─90811940f4b0e8de4cb0acca64f83d814b0857
+|  |    | └a036ac8d5a6266aeb3fada901e674c988430da
+|  |    ├─3d
+|  |    | ├─a6a14769e6c907ac1f594eea903897b0a38c24
+|  |    | └ae49a586ac75ab1f8073900eac6fa1516944cf
+|  |    ├─3c
+|  |    | └3cc68e1bc3773160fd37761222479befd268cd
+|  |    ├─3a
+|  |    | └636befad9050db73e52c3aceea633d10384d12
+|  |    ├─37
+|  |    | └b8c95fcd8e7a212c5b9f4735246113c3e2819c
+|  |    ├─36
+|  |    | └cc1d218b4f8d2a4c75d83be324a4d2a2fb3058
+|  |    ├─34
+|  |    | └0f8f222cf60d9906d439ce9289352dad4a2103
+|  |    ├─33
+|  |    | ├─62d0b12968f7e3c0826b08b20953dc433ac3e3
+|  |    | └9b77717733543efb48e085d28b7b091a93709e
+|  |    ├─30
+|  |    | └ed7089318ca8a4853228b6c73b603afbfca502
+|  |    ├─2f
+|  |    | └a2eb80efbff29b527a6c1260423a5e03839f0a
+|  |    ├─2d
+|  |    | ├─07f035985b122a77ff72f93e3a8b9143c8fcfc
+|  |    | └6fa1c3a15f102067aa67fdc16f0ab3e6302f7c
+|  |    ├─2c
+|  |    | ├─15fb2e3e5636dab4f12967a53ba92eca49eb77
+|  |    | └cfb195fe16fdcab2fe0a433fb092bf60fb055e
+|  |    ├─2b
+|  |    | ├─03562eaa324d941bc6e0464b578a198896d17e
+|  |    | └15912b53d9b3638fd7e9a227c1b22172126829
+|  |    ├─2a
+|  |    | └66c550b2625b16d8aa1aa1cdd2f6b26e7e6ef3
+|  |    ├─29
+|  |    | └1a014f2cc92e27cf19dadb63d1ad8f79d1e9ea
+|  |    ├─26
+|  |    | └21ea7fa61775d1f8b23aa712526dffcf295a0a
+|  |    ├─24
+|  |    | └9efb000ab68f84589175871ec8b79c7f631a7e
+|  |    ├─21
+|  |    | └ecf6b28ba18d0b8965bc69aeb1723b7a68f711
+|  |    ├─1e
+|  |    | ├─2c6f64bf4d69891504e6c60e6d7135c4176083
+|  |    | ├─318c827ee70cbfddc7448c0b17764bc9dc8978
+|  |    | └389cc2f78f275d4eb70920276f21ceb309f626
+|  |    ├─1d
+|  |    | ├─cd899fa03ba49b397b0225228777b56a4356b2
+|  |    | └d3e3aa887aa76e9660cd95a6b9851282ac52ac
+|  |    ├─1a
+|  |    | └6637daa512186f011c522e9cb7b2612256a8df
+|  |    ├─19
+|  |    | └8e96ccd58a7dafde04c0446c253e020ba9e9f4
+|  |    ├─18
+|  |    | └ab1ae825111de9c1fe064e695105d92ab266e0
+|  |    ├─16
+|  |    | └2cc061c32f15b531907ddc6522aac9958063ad
+|  |    ├─14
+|  |    | ├─0bd263ee005498a227b7a4a323c728c1a5b681
+|  |    | └0e44666e193e2aa0b0af188266945f923d083d
+|  |    ├─12
+|  |    | └cbb3fc639067751220b648f0ef6b40b17883db
+|  |    ├─11
+|  |    | ├─0cc697ccb32503bbe249b650060ee3402a00f2
+|  |    | └c1dccf53c4db2c702e7b9673628fb858cb3bd9
+|  |    ├─0f
+|  |    | ├─3038bc5c35aecc1b8f7722c43f54d41d1308a2
+|  |    | └f08d026c7f18602bc3033ea3dbf54a4786359f
+|  |    ├─0d
+|  |    | └8409a19f967483ef4336f29cba9d6600cd4021
+|  |    ├─0c
+|  |    | ├─3ebb95bdc1e35f30bd28f22c9e4e42fa8a4120
+|  |    | └f0d37f79401c034c2e7be7941b79b354bae7b3
+|  |    ├─0b
+|  |    | ├─01ff3d5ced022af65942f7bf7d425c2e6e080c
+|  |    | └731ac932336ea7b3416d16145144ce84971491
+|  |    ├─08
+|  |    | ├─82e494bff697895746d9b61b85ee1a7ccffc91
+|  |    | └908edd6a4136cad144e7a483f291f9d9618be2
+|  |    ├─07
+|  |    | └5ac56ef015bbbd56059a092c30fbce0ba8f6f6
+|  |    ├─06
+|  |    | └2334ac081de8deaba4dcd13bfeeea9946216b2
+|  |    ├─02
+|  |    | └ba42eb605f472a70ed2e2be152d63faa1fd0df
+|  |    ├─01
+|  |    | └30c83c529e0ad12e04ff2df80db96831773b5f
+|  |    ├─00
+|  |    | └98b4452571493529f1ab9cf2f35a728abeebc7
+|  ├─logs
+|  |  ├─HEAD
+|  |  ├─refs
+|  |  |  ├─remotes
+|  |  |  |    ├─origin
+|  |  |  |    |   └master
+|  |  |  ├─heads
+|  |  |  |   └master
+|  ├─info
+|  |  └exclude
+|  ├─hooks
+|  |   ├─applypatch-msg.sample
+|  |   ├─commit-msg.sample
+|  |   ├─fsmonitor-watchman.sample
+|  |   ├─post-update.sample
+|  |   ├─pre-applypatch.sample
+|  |   ├─pre-commit.sample
+|  |   ├─pre-push.sample
+|  |   ├─pre-rebase.sample
+|  |   ├─pre-receive.sample
+|  |   ├─prepare-commit-msg.sample
+|  |   └update.sample
