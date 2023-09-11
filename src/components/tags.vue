@@ -1,3 +1,8 @@
+<!--
+
+	tags模块已经弃用！
+
+-->
 <template>
 	<div class="tags" v-if="tags.show">
 		<ul>
@@ -31,68 +36,63 @@
 </template>
 
 <script setup lang="ts">
-import { useTagsStore } from '../store/tags';
-import { onBeforeRouteUpdate, useRoute, useRouter } from 'vue-router';
-
-const route = useRoute();
-const router = useRouter();
-const isActive = (path: string) => {
-	return path === route.fullPath;
-};
-
-const tags = useTagsStore();
-// 关闭单个标签
-const closeTags = (index: number) => {
-	const delItem = tags.list[index];
-	tags.delTagsItem(index);
-	const item = tags.list[index] ? tags.list[index] : tags.list[index - 1];
-	if (item) {
-		delItem.path === route.fullPath && router.push(item.path);
-	} else {
-		router.push('/');
+import { useTagsStore } from '../store/tags'
+import { onBeforeRouteUpdate, useRoute, useRouter } from 'vue-router'
+	const route = useRoute()
+	const router = useRouter()
+	const isActive = (path: string) => {
+		return path === route.fullPath
 	}
-};
-
-// 设置标签
-const setTags = (route: any) => {
-	const isExist = tags.list.some(item => {
-		return item.path === route.fullPath;
-	});
-	if (!isExist) {
-		if (tags.list.length >= 8) tags.delTagsItem(0);
-		tags.setTagsItem({
-			name: route.name,
-			title: route.meta.title,
-			path: route.fullPath
-		});
+	const tags = useTagsStore()
+	// 关闭单个标签
+	const closeTags = (index: number) => {
+		const delItem = tags.list[index]
+		tags.delTagsItem(index)
+		const item = tags.list[index] ? tags.list[index] : tags.list[index - 1]
+		if (item) {
+			delItem.path === route.fullPath && router.push(item.path)
+		} else {
+			router.push('/')
+		}
 	}
-};
-setTags(route);
-onBeforeRouteUpdate(to => {
-	setTags(to);
-});
-
-// 关闭全部标签
-const closeAll = () => {
-	tags.clearTags();
-	router.push('/');
-};
-// 关闭其他标签
-const closeOther = () => {
-	const curItem = tags.list.filter(item => {
-		return item.path === route.fullPath;
-	});
-	tags.closeTagsOther(curItem);
-};
-const handleTags = (command: string) => {
-	command === 'other' ? closeOther() : closeAll();
-};
-
-// 关闭当前页面的标签页
-// tags.closeCurrentTag({
-//     $router: router,
-//     $route: route
-// });
+	// 设置标签
+	const setTags = (route: any) => {
+		const isExist = tags.list.some(item => {
+			return item.path === route.fullPath
+		})
+		if (!isExist) {
+			if (tags.list.length >= 8) tags.delTagsItem(0)
+			tags.setTagsItem({
+				name: route.name,
+				title: route.meta.title,
+				path: route.fullPath
+			})
+		}
+	}
+	setTags(route);
+	onBeforeRouteUpdate(to => {
+		setTags(to)
+	})
+	// 关闭全部标签
+	const closeAll = () => {
+		tags.clearTags()
+		router.push('/')
+	}
+	// 关闭其他标签
+	const closeOther = () => {
+		const curItem = tags.list.filter(item => {
+			return item.path === route.fullPath
+		})
+		tags.closeTagsOther(curItem)
+	}
+	const handleTags = (command: string) => {
+		command === 'other' ? closeOther() : closeAll();
+	}
+	// 关闭当前页面的标签页
+	// tags.closeCurrentTag({
+	//     $router: router,
+	//     $route: route
+	// });
 </script>
 
 <style>

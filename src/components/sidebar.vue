@@ -1,12 +1,14 @@
 <!--
- *不要再遍历树了，抽象死了aaa！
+
+    最恶心的东西：el-tree树！！
+
 -->
 <template>
     <div class="sidebar">
         <el-menu class="sidebar-el-menu" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" router><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
             <template v-for="item in obj.item" :key="item.id">
                 <template v-if="item.hasChildren == true">
-                    <el-sub-menu :index="item.id+''"><!--必须要是字符串-->
+                    <el-sub-menu :index="item.id+''"><!--必须要是字符串，坑-->
                         <template #title>
                             <span>{{ item.label }}</span>
                         </template>
@@ -52,6 +54,7 @@ import Redo from 'wangeditor/dist/menus/redo'
     const onRoutes = computed(() => {
         return route.path
     })
+    //渲染侧边栏数据
     const sidebar = useSidebarStore()
     getSideBarData().then(res=>obj.item = res.data)
 </script>
