@@ -1,12 +1,12 @@
-//tag标签的增删操作
-
+/**
+ * tag标签的增删操作
+ */
 import { defineStore } from 'pinia';
 interface ListItem {
 	name: string;
 	path: string;
 	title: string;
 }
-
 export const useTagsStore = defineStore('tags', {
 	state: () => {
 		return {

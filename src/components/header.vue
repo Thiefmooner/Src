@@ -30,22 +30,18 @@ import { onMounted } from 'vue';
 import { useSidebarStore } from '../store/sidebar';
 import { useRouter } from 'vue-router';
 import imgurl from '../assets/img/img.jpg';
-
-const username: string | null = localStorage.getItem('ms_username');
-const message: number = 0;
-const sidebar = useSidebarStore();
-
-
-// 用户名下拉菜单选择事件
-const router = useRouter();
-const handleCommand = (command: string) => {
-	if (command == 'loginout') {
-		localStorage.removeItem('ms_username');
-		router.push('/login');
-	} else if (command == 'user') {
-		router.push('/user');
-	}
-};
+	const username: string | null = localStorage.getItem('ms_username');
+	const message: number = 0;
+	const sidebar = useSidebarStore();
+	const router = useRouter();
+	const handleCommand = (command: string) => {
+		if (command == 'loginout') {
+			localStorage.removeItem('ms_username');
+			router.push('/login');
+		} else if (command == 'user') {
+			router.push('/user');
+		}
+	};
 </script>
 <style scoped>
 .header {

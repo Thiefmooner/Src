@@ -2,7 +2,6 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 import { usePermissStore } from '../store/permiss';
 import Home from '../views/home.vue';
 import Login from '../views/login.vue'
-
 const routes: RouteRecordRaw[] = [
     //想要首页暂时不展示内容，故注释
     
@@ -160,14 +159,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import(/* webpackChunkName: "403" */ '../views/403.vue'),
     },
 ];
-
 const router = createRouter({
     history: createWebHashHistory(),
     routes
 });
-
-
-
 router.beforeEach((to, from, next) => {
     document.title = `${to.meta.title} `;
     const role = localStorage.getItem('ms_username');
@@ -181,5 +176,4 @@ router.beforeEach((to, from, next) => {
         next();//放行
     }
 });
-
 export default router;

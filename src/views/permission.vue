@@ -26,15 +26,12 @@
 import { ref } from 'vue';
 import { ElTree } from 'element-plus';
 import { usePermissStore } from '../store/permiss';
-
 const role = ref<string>('admin');
-
 interface Tree {
 	id: string;
 	label: string;
 	children?: Tree[];
 }
-
 const data: Tree[] = [
 	{
 		id: '1',
@@ -104,21 +101,16 @@ const data: Tree[] = [
 		label: '支持作者'
 	}
 ];
-
 const permiss = usePermissStore();
-
-
 const checkedKeys = ref<string[]>([]);
 const getPremission = () => {
 	checkedKeys.value = permiss.defaultList[role.value];
 };
 getPremission();
-
 const tree = ref<InstanceType<typeof ElTree>>();
 const onSubmit = () => {
 	console.log(tree.value!.getCheckedKeys(false));
 };
-
 const handleChange = (val: string[]) => {
 	tree.value!.setCheckedKeys(permiss.defaultList[role.value]);
 };

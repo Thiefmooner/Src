@@ -1,3 +1,6 @@
+<!--
+ *不要再遍历树了，抽象死了
+-->
 <template>
     <div class="sidebar">
         <el-menu
@@ -152,13 +155,11 @@ const items = [
         permiss: '14',
     },
 ];
-
-const route = useRoute();
-const onRoutes = computed(() => {
-    return route.path;
-});
-
-const sidebar = useSidebarStore();
+    const route = useRoute();
+    const onRoutes = computed(() => {
+        return route.path;
+    });
+    const sidebar = useSidebarStore();
 </script>
 
 <style scoped>

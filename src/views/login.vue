@@ -39,13 +39,11 @@ interface LoginInfo {
 	username: string;
 	password: string;
 }
-
 const router = useRouter();
 const param = reactive<LoginInfo>({
 	username: 'admin',
 	password: '123123'
 });
-
 const rules: FormRules = {
 	username: [
 		{
@@ -68,9 +66,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
 	if (!formEl) return;
 	formEl.validate((valid: boolean) => {
 		if (valid) {
-			/**
-			 * 这里暂时没对password做处理！！！都可以登录
-			 */
 			//先告诉你登录成功
 			ElMessage.success('登录成功');
 			//先把输入的用户名存到localStroage中的ms_username
@@ -89,7 +84,6 @@ const submitForm = (formEl: FormInstance | undefined) => {
 		}
 	});
 };
-
 const tags = useTagsStore();
 tags.clearTags();
 </script>
