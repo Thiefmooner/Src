@@ -51,9 +51,7 @@ npm run build   //执行构建命令，生成的dist文件夹放在服务器下�
 
 vue-manage-system-master
 
--------------------------------------------------------------
-
-```json
+```
 vue-manage-system-master
 ├─auto-imports.d.ts
 ├─components.d.ts
@@ -124,12 +122,6 @@ vue-manage-system-master
 ├─.vscode
 |    └launch.json
 ```
-
-
-
--------------------------------------------------------------
-
-
 
 ### Sidebar.vue的el-menu
 
