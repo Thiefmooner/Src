@@ -20,7 +20,7 @@
 				<div class="login-btn">
 					<el-button type="primary" @click="submitForm(login)">登录</el-button>
 				</div>
-				<p class="login-tips">Password could be every code</p>
+				<p class="login-tips">两个角色，admin和其他</p>
 			</el-form>
 		</div>
 	</div>

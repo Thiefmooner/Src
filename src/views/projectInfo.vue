@@ -24,9 +24,233 @@
 <script lang="ts" setup>
 import {ref} from 'vue'
 import {getRowSpanMethod} from '../utils/use-span-method'
-  const inputInfo = ref('')
-  //项目基础信息
-  let projectInfo: any[] = [
+    const inputInfo = ref('')
+    //项目基础信息
+    let projectInfo: any[] = [
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-022",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-2222",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"北京",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-2222",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-2222",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },{
+      project_Id: "NEWUBK-2022140-2222",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
+    {
+      project_Id: "NEWUBK-2022140-22222",
+      project_Name: "Tom",
+      customer: "No. 189, Grove St, Los Angeles",
+      is_Installed:"是",
+      is_Exported:"否",
+      design_Location:"天津",
+      process_Location:"天津",
+      company_Installation:"北京",
+      staff_Market:"jack",
+      staff_Machinery:"jack",
+      staff_Electrical:"jack",
+      date_Sign:"jack",
+      date_Send:"jack"
+    },
     {
       project_Id: "NEWUBK-2022140-022",
       project_Name: "Tom",
@@ -192,9 +416,9 @@ import {getRowSpanMethod} from '../utils/use-span-method'
       date_Sign:"jack",
       date_Send:"jack"
     }
-  ]
-  //当project_Id相同时，合并，project_Id后的参数可以加
-  const spanMethod = getRowSpanMethod(projectInfo,['project_Id'])
+    ]
+    //当project_Id相同时，合并，project_Id后的参数可以加
+    const spanMethod = getRowSpanMethod(projectInfo,['project_Id'])
 </script>
 <style scoped> 
 .projectTable {

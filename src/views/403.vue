@@ -12,12 +12,11 @@
 </template>
 
 <script setup lang="ts" name="403">
-import { useRouter } from 'vue-router';
-
-const router = useRouter();
-const goBack = () => {
-	router.go(-2);
-};
+import { useRouter } from 'vue-router'
+	const router = useRouter();
+	const goBack = () => {
+		router.go(-2);
+	};
 </script>
 
 <style scoped>
