@@ -156,7 +156,7 @@ import Login from '../views/login.vue'
             },
             component: () => import(/* webpackChunkName: "403" */ '../views/403.vue'),
         },
-    ];
+    ]
     const router = createRouter({
         history: createWebHashHistory(),
         routes

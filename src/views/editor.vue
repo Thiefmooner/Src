@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div class="plugins-tips">
-			wangEditor：轻量级 web 富文本编辑器
+			wangEditor：富文本编辑器
 			
 		</div>
 		<div class="mgb20" ref="editor"></div>
