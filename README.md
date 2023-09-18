@@ -163,21 +163,22 @@ vue-manage-system-master
 
 #### 参数说明：
 
-{
-
-"`id`":string类型，`”/想要到达的路径”`（在此项目中同时被用作router属性的导航）
-
-"`label`":string类型，选项名
-
-"`icon`": string类型，图标，暂时用不到
-
-"`hasChildren`":boolean类型，判断是否有子级元素
-
-"`items`":数组类型，如果hasChildren为true，数组就有内容，内容为嵌套的同样结构体
-
-"`parentId`":父元素的id,用来判断所属层级，同一级别的元素此属性值应该一样
-
-}
+> {
+>
+> "`id`":string类型，”/想要到达的路径”（在此项目中同时被用作router属性的导航）
+>
+> "`label`":string类型，选项名
+>
+> "`icon`": string类型，图标，暂时用不到
+>
+> "`hasChildren`":boolean类型，判断是否有子级元素
+>
+> "`items`":数组类型，如果hasChildren为true，数组就有内容，内容为嵌套的同样结构体
+>
+> "`parentId`":父元素的id,用来判断所属层级，同一级别的元素此属性值应该一样
+>
+> }
+>
 
 ### el-menu el-sub-menu el-menu-item
 
@@ -564,6 +565,6 @@ state: () => {
 
 #### 关于localStorage
 
-在登录的时候，就会把用户名存储到ms_username，通过username参数再去permiss.ts里查询对应的权限数组defaultList
-
-比如admin拥有所有权限['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']，再通过permiss.handleSet()重置权限（有则覆盖，无则初始化）
+> 在登录的时候，就会把用户名存储到ms_username，通过username参数再去permiss.ts里查询对应的权限数组defaultList
+>
+> 比如admin拥有所有权限['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']，再通过permiss.handleSet()重置权限（有则覆盖，无则初始化）
