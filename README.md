@@ -53,17 +53,6 @@ vue-manage-system-master
 
 ```
 vue-manage-system-master
-├─auto-imports.d.ts
-├─components.d.ts
-├─index.html
-├─LICENSE
-├─package-lock.json
-├─package.json
-├─README.md
-├─result.txt
-├─tsconfig.json
-├─tsconfig.node.json
-├─vite.config.ts
 ├─src
 |  ├─App.vue
 |  ├─main.ts
@@ -121,6 +110,17 @@ vue-manage-system-master
 |   └template.xlsx
 ├─.vscode
 |    └launch.json
+├─auto-imports.d.ts
+├─components.d.ts
+├─index.html
+├─LICENSE
+├─package-lock.json
+├─package.json
+├─README.md
+├─result.txt
+├─tsconfig.json
+├─tsconfig.node.json
+├─vite.config.ts
 ```
 
 ### Sidebar.vue的el-menu
