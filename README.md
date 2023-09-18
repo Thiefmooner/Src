@@ -34,15 +34,15 @@
 
 ### 版本信息(Version)
 
-> 系统Vue版本：@vue/cli 5.0.4
+> 系统Vue版本：5.0.4
 >
-> 系统Node版本：v16.15.0
+> 系统Node版本：16.15.0
 >
-> package.json里Vue版本："vue": "^3.2.37"
+> package.json里Vue版本：3.2.37
 >
-> pinia版本："pinia": "^2.0.20"
+> pinia版本：2.0.20
 >
-> vite版本："vite": "^3.0.0"
+> vite版本：3.0.0
 >
 
 ### 目录结构
@@ -51,17 +51,6 @@ vue-manage-system-master
 
 ```
 vue-manage-system-master
-├─auto-imports.d.ts
-├─components.d.ts
-├─index.html
-├─LICENSE
-├─package-lock.json
-├─package.json
-├─README.md
-├─result.txt
-├─tsconfig.json
-├─tsconfig.node.json
-├─vite.config.ts
 ├─src
 |  ├─App.vue
 |  ├─main.ts
@@ -119,6 +108,17 @@ vue-manage-system-master
 |   └template.xlsx
 ├─.vscode
 |    └launch.json
+├─auto-imports.d.ts
+├─components.d.ts
+├─index.html
+├─LICENSE
+├─package-lock.json
+├─package.json
+├─README.md
+├─result.txt
+├─tsconfig.json
+├─tsconfig.node.json
+├─vite.config.ts
 ```
 
 ### Sidebar.vue的el-menu
