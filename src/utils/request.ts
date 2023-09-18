@@ -2,10 +2,6 @@ import axios, { AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig } f
     const service:AxiosInstance = axios.create({
         timeout: 5000
     })
-    //const service2:AxiosInstance = axios.create({
-    // baseURL:'http://192.168.3.21:1024/api/SampleData/SaveData?id=1&&value=111',
-        //timeout: 5000
-    //})
     //请求拦截器
     service.interceptors.request.use(
         (config: AxiosRequestConfig) => {
