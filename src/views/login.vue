@@ -3,14 +3,14 @@
 		<div class="ms-login">
 			<div class="ms-title">万向新元信息化系统</div>
 			<el-form :model="param" :rules="rules" ref="login" label-width="0px" class="ms-content">
-				<el-form-item prop="username">
+				<el-form-item prop="username" class="input">
 					<el-input v-model="param.username" placeholder="username">
 						<template #prepend>
 							<el-button :icon="User"></el-button>
 						</template>
 					</el-input>
 				</el-form-item>
-				<el-form-item prop="password">
+				<el-form-item prop="password" class="input">
 					<el-input type="password" placeholder="password" v-model="param.password" @keyup.enter="submitForm(login)">
 						<template #prepend>
 							<el-button :icon="Lock"></el-button>
@@ -18,9 +18,8 @@
 					</el-input>
 				</el-form-item>
 				<div class="login-btn">
-					<el-button type="primary" @click="submitForm(login)">登录</el-button>
+					<el-button color="#626aef" type="primary" class="button" @click="submitForm(login)">登录</el-button>
 				</div>
-				<p class="login-tips">两个角色，admin和其他</p>
 			</el-form>
 		</div>
 	</div>
@@ -89,11 +88,73 @@ tags.clearTags();
 </script>
 
 <style scoped>
+html,body {
+	margin: 0;
+	font-family: "PingFang SC","Microsoft Yahei",sans-serif;
+}
+.login-wrap {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url("../assets/img/6657410cdba6c91ed309c842749a875f.jpg") fixed no-repeat ;
+	background-size: cover;
+}
+.ms-login {
+	width: 240px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	background: inherit;
+	border-radius: 18px;
+	overflow: hidden;
+}
+.ms-login::before{
+	content: "";
+	width: calc(100% + 20px);
+	height: calc(100% + 20px);
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	overflow: hidden;
+	background: inherit;
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.25);
+	filter: blur(5px);
+	z-index: -1;
+}
+.ms-title {
+	font-size: 20px;
+	font-weight: 400;
+	color: #F1EFEF;
+}
+.ms-content {
+	margin-top: 20px;
+}
+.ms-login .inpput {
+	margin:6px,0;
+	height: 36px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	padding: 0 14px;
+	color: #3d5245;
+}
+
+.login-btn .button {
+	width: 240px;
+}
+
+
+/*
 .login-wrap {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	/*background-image: url(../assets/img/login-bg.jpg);*/
 	background-size: 100%;
 }
 .ms-title {
@@ -130,4 +191,5 @@ tags.clearTags();
 	line-height: 30px;
 	color: #fff;
 }
+*/
 </style>
