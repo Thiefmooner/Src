@@ -1,7 +1,5 @@
 <!--
-
     最恶心的东西：el-tree树！！
-
 -->
 <template>
     <div class="sidebar">
@@ -67,7 +65,6 @@ import Redo from 'wangeditor/dist/menus/redo'
     top: 70px;
     bottom: 0;
     overflow-y: scroll;
-    color: #162a40;
 }
 .sidebar::-webkit-scrollbar {
     width: 0;

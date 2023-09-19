@@ -4,7 +4,7 @@
 			22223333<el-icon><ColdDrink /></el-icon> 
 		</div>
 		<div>
-			<img src="https://lin-xin.gitee.io/images/weixin.jpg" />
+			
 		</div>
 	</div>
 </template>
