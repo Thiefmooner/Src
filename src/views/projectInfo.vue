@@ -417,20 +417,20 @@ import {getRowSpanMethod} from '../utils/use-span-method'
       date_Send:"jack"
     }
     ]
-    //当project_Id相同时，合并，project_Id后的参数可以加
+    //当project_Id相同时，合并，project_Id后的参数可选择
     const spanMethod = getRowSpanMethod(projectInfo,['project_Id'])
 </script>
 <style scoped> 
 .projectTable {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 0.5%;
   bottom: 2%;
   width: 98%;
   height: 85%;
 }
 .search-box {
-  height: 40px;
+  height: 5%;
   width: 50%;
   margin-top:10px;
 }

@@ -87,7 +87,7 @@ const tags = useTagsStore();
 tags.clearTags();
 </script>
 
-<style scoped>
+<style>
 html,body {
 	margin: 0;
 	font-family: "PingFang SC","Microsoft Yahei",sans-serif;
@@ -98,7 +98,7 @@ html,body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url("../assets/img/HUA_0029.JPG") fixed no-repeat ;
+	background: url("../assets/img/back_tiny.jpg") fixed no-repeat , url("../assets/img/back.JPG") fixed no-repeat;
 	background-size: cover;
 }
 .ms-login {
@@ -145,7 +145,9 @@ html,body {
 	padding: 0 14px;
 	color: #3d5245;
 }
-
+.el-input__inner{
+	border-radius: 24px;
+}
 .login-btn .button {
 	width: 240px;
 }

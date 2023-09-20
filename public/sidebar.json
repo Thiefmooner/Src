@@ -14,7 +14,7 @@
         },
         {
             "id": "/fileSource",
-            "label": "文件库",
+            "label": "部门文件库",
             "icon": "fa fa-desktop",
             "hasChildren": false,
             "items": [],
@@ -22,7 +22,7 @@
         },
         {
             "id": "/selectInfo",
-            "label": "文件搜索",
+            "label": "项目文件搜索",
             "icon": "fa fa-share-alt-square",
             "hasChildren": false,
             "items": [],
