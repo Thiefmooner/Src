@@ -26,7 +26,7 @@ import Login from '../views/login.vue'
                     path: '/selectInfo',
                     name: 'selectInfo',
                     meta: {
-                        title: '表格',
+                        title: '项目文件搜索',
                         permiss: '2',
                     },
                     component: () => import(/* webpackChunkName: "table" */ '../views/selectInfo.vue'),
@@ -44,7 +44,7 @@ import Login from '../views/login.vue'
                     path: '/fileSource',
                     name: 'fileSource',
                     meta: {
-                        title: '装备库',
+                        title: '部门文件库',
                         permiss: '5',
                     },
                     component: () => import(/* webpackChunkName: "form" */ '../views/fileSource.vue'),

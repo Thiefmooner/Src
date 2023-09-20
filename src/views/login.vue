@@ -98,7 +98,7 @@ html,body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url("../assets/img/back_tiny.jpg") fixed no-repeat , url("../assets/img/back.JPG") fixed no-repeat;
+	background: url("../assets/img/back_tiny.jpg") fixed no-repeat ;
 	background-size: cover;
 }
 .ms-login {

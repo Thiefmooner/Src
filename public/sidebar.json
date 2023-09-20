@@ -1,28 +1,32 @@
 [{
-    "id": "/",
+    "id": "698f872c-407b-471b-a28b-eee69a4e64ba",
     "label": "基础信息",
+    "path":"/",
     "icon": "fa fa-send-o",
     "hasChildren": true,
     "items": [
         {
-            "id": "/projectInfo",
+            "id": "25125872c-407b-471b-a28b-eee69a4e64ba",
             "label": "项目信息明细",
+            "path":"/projectInfo",
             "icon": "fa fa-location-arrow",
             "hasChildren": false,
             "items": [],
             "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
         },
         {
-            "id": "/fileSource",
+            "id": "43335875472c-407b-471b-a28b-eee69a4e64ba",
             "label": "部门文件库",
+            "path":"/fileSource",
             "icon": "fa fa-desktop",
             "hasChildren": false,
             "items": [],
             "parentId": "698f872c-407b-471b-a28b-eee69a4e64ba"
         },
         {
-            "id": "/selectInfo",
+            "id": "512623q6-407b-471b-a28b-eee69a4e64ba",
             "label": "项目文件搜索",
+            "path":"/selectInfo",
             "icon": "fa fa-share-alt-square",
             "hasChildren": false,
             "items": [],
@@ -32,43 +36,48 @@
     "parentId": "0"
 },
 {
-    "id": "1",
+    "id": "698gzsg72c-407b-471b-a28b-eee69a4e64bavsvvz",
     "label": "项目管理",
+    "path":"/",
     "icon": "fa fa-desktop",
     "hasChildren": true,
     "items": [
         {
             "id": "7ae94059-9aa5-48eb-8330-4e2a6565b193",
             "label": "项目进度汇报",
+            "path":"/",
             "icon": "fa fa-leaf",
             "hasChildren": false,
             "items": [],
-            "parentId": "1"
+            "parentId": "698gzsg72c-407b-471b-a28b-eee69a4e64bavsvvz"
         }   
     ],
     "parentId": "0"
 },
 {
-    "id": "2",
+    "id": "wy32636772-407b-471b-a28b-eee69a4e64bavsvvz",
     "label": "BOM管理",
+    "path":"/",
     "icon": "fa fa-coffee",
     "hasChildren": true,
     "items": [
         {
-            "id": "8",
+            "id": "wy26236327372-407b-471b-a28b-eee69a4e64bavsvvz51661",
             "label": "采购单管理",
+            "path":"/",
             "icon": "fa fa-sitemap",
             "hasChildren": false,
             "items": [],
-            "parentId": "2"
+            "parentId": "wy32636772-407b-471b-a28b-eee69a4e64bavsvvz"
         },
         {
-            "id": "9",
+            "id": "wy362362666-407b-471b-a28b-eee69a4e64bavsvvz",
             "label": "发货单管理",
+            "path":"/",
             "icon": "fa fa-th-list",
             "hasChildren": false,
             "items": [],
-            "parentId": "2"
+            "parentId": "wy32636772-407b-471b-a28b-eee69a4e64bavsvvz"
         }
     ],
     "parentId": "0"
