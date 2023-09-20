@@ -1,7 +1,11 @@
 <template>
     <div class="table">
       <div class="search-Box">
-        <el-input placeholder="输入文件,自动检索" class="search"  v-model="search_Text" ></el-input>
+        <el-input placeholder="输入文件,自动检索" class="search"  v-model="search_Text" >
+          <template #prefix>
+            <el-icon><search /></el-icon>
+          </template>
+        </el-input>
       </div>
       <el-table :data="tables" style="width: 100%">
         <el-table-column prop="project_Id" label="项目编号" ></el-table-column>

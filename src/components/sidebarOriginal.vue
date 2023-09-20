@@ -22,7 +22,7 @@
                                 v-permiss="item.permiss"
                             >
                                 <template #title>{{ subItem.title }}</template>
-                                <el-menu-item v-for="(threeItem, i) in subItem.subs" :key="i" :index="threeItem.index">
+                                <el-menu-item v-for="(threeItem,i) in subItem.subs" :key="i" :index="threeItem.index">
                                     {{ threeItem.title }}
                                 </el-menu-item>
                             </el-sub-menu>

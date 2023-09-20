@@ -40,8 +40,8 @@ interface LoginInfo {
 }
 const router = useRouter();
 const param = reactive<LoginInfo>({
-	username: 'admin',
-	password: '123123'
+	username: '',
+	password: ''
 });
 const rules: FormRules = {
 	username: [
@@ -66,7 +66,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
 	formEl.validate((valid: boolean) => {
 		if (valid) {
 			//先告诉你登录成功
-			ElMessage.success('登录成功');
+			ElMessage.success('登录成功 '+param.username);
 			//先把输入的用户名存到localStroage中的ms_username
 			localStorage.setItem('ms_username', param.username);
 			//如果是admin，就把admin的权限作为defaultList的参数；反之user的权限作为参数
