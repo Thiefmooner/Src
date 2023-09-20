@@ -66,7 +66,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
 	formEl.validate((valid: boolean) => {
 		if (valid) {
 			//先告诉你登录成功
-			ElMessage.success('登录成功 '+param.username);
+			ElMessage.success('您好 '+param.username);
 			//先把输入的用户名存到localStroage中的ms_username
 			localStorage.setItem('ms_username', param.username);
 			//如果是admin，就把admin的权限作为defaultList的参数；反之user的权限作为参数
@@ -78,7 +78,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
 			localStorage.setItem('ms_keys', JSON.stringify(keys));
 			router.push('/');
 		} else {
-			ElMessage.error('登录成功');
+			ElMessage.error('你先输入再说');
 			return false;
 		}
 	});
@@ -98,12 +98,12 @@ html,body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url("../assets/img/6657410cdba6c91ed309c842749a875f.jpg") fixed no-repeat ;
+	background: url("../assets/img/HUA_0029.JPG") fixed no-repeat ;
 	background-size: cover;
 }
 .ms-login {
 	width: 240px;
-	height: 220px;
+	height: 200px;
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
@@ -128,9 +128,10 @@ html,body {
 	z-index: -1;
 }
 .ms-title {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 400;
-	color: #F1EFEF;
+	color: rgba(rgb(18, 19, 73), green, blue, alpha);
 }
 .ms-content {
 	margin-top: 20px;
@@ -140,7 +141,7 @@ html,body {
 	height: 36px;
 	border: none;
 	background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 4px;
+	border-radius: 24px;
 	padding: 0 14px;
 	color: #3d5245;
 }
