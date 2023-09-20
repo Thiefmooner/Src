@@ -44,7 +44,6 @@ import { useRoute } from 'vue-router'
 import  axios from 'axios'
 import {reactive} from 'vue'
 import { getSideBarData } from '../api'
-
     let obj :any = reactive({
         item:[]
     })

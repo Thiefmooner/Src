@@ -151,8 +151,6 @@ html,body {
 .login-btn .button {
 	width: 240px;
 }
-
-
 /*
 .login-wrap {
 	position: relative;
