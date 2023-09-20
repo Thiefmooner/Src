@@ -3,30 +3,30 @@
 -->
 <template>
     <div class="sidebar">
-        <el-menu class="sidebar-el-menu" default-active="$route.path" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" :router="true"><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
+        <el-menu class="sidebar-el-menu" default-active="$route.path" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" router><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
             <template v-for="item in obj.item" :key="item.id">
                 <template v-if="item.hasChildren == true">
-                    <el-sub-menu :index="item.path+''" :route="{path:item.path}"><!--必须要是字符串，坑-->
+                    <el-sub-menu :index="item.id+''" :route="{path:item.path}"><!--index必须要是字符串，坑-->
                         <template #title>
                             <span>{{ item.label }}</span>
                         </template>
                         <template v-for="subItem in item.items" :key="subItem.id">
-                            <el-sub-menu v-if="subItem.hasChildren == true" :index="subItem.path+''" :route="{path:subItem.path}">
+                            <el-sub-menu v-if="subItem.hasChildren == true" :index="subItem.id+''" :route="{path:subItem.path}">
                                 <template #title>
                                     {{ subItem.label }}
                                 </template>
-                                <el-menu-item v-for="threeItem in subItem.items" :index="threeItem.path+''" :route="{path:threeItem.path}">
+                                <el-menu-item v-for="threeItem in subItem.items" :index="threeItem.id+''" :route="{path:threeItem.path}">
                                     {{ threeItem.label }}
                                 </el-menu-item>
                             </el-sub-menu>
-                            <el-menu-item v-else :index="subItem.path+''" :route="{path:subItem.path}">
+                            <el-menu-item v-else :index="subItem.id+''" :route="{path:subItem.path}">
                                 {{ subItem.label }}
                             </el-menu-item>
                         </template>
                     </el-sub-menu>
                 </template>
                 <template v-else>
-                    <el-menu-item :index="item.path+''" :route="{path:item.path}">
+                    <el-menu-item :index="item.id+''" :route="{path:item.path}">
                         <template #title>
                             {{ item.label }}
                         </template>
@@ -44,7 +44,7 @@ import { useRoute } from 'vue-router'
 import  axios from 'axios'
 import {reactive} from 'vue'
 import { getSideBarData } from '../api'
-import Redo from 'wangeditor/dist/menus/redo'
+
     let obj :any = reactive({
         item:[]
     })
