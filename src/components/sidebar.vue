@@ -3,7 +3,7 @@
 -->
 <template>
     <div class="sidebar">
-        <el-menu class="sidebar-el-menu" default-active="$route.path" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" router><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
+        <el-menu class="sidebar-el-menu" default-active="onRoutes" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" router><!--加一个router，就会在点击菜单后，路径追加一个item的id-->
             <template v-for="item in obj.item" :key="item.id">
                 <template v-if="item.hasChildren == true">
                     <el-sub-menu :index="item.id+''" :route="{path:item.path}"><!--index必须要是字符串，坑-->
