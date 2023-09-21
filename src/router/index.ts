@@ -47,7 +47,7 @@ import Login from '../views/login.vue'
                         title: '部门文件库',
                         permiss: '5',
                     },
-                    component: () => import(/* webpackChunkName: "form" */ '../views/fileSource.vue'),
+                    component: () => import(/* webpackChunkName: "fileSource" */ '../views/fileSource.vue'),
                 },
                 {
                     path: '/tabs',
