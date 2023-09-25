@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import { usePermissStore } from '../store/permiss'
 import Home from '../views/home.vue'
 import Login from '../views/login.vue'
-    const routes: RouteRecordRaw[] = [
+    const routes : RouteRecordRaw[] = [
         //想要首页暂时不展示内容，故注释
         //{
             //path: '/',
@@ -144,7 +144,7 @@ import Login from '../views/login.vue'
             path: '/login',
             name: 'Login',
             meta: {
-                title: '登录',
+                title: '登录'
             },
             component: () => import(/* webpackChunkName: "login" */ '../views/login.vue'),
         },

@@ -1,7 +1,5 @@
 <!--
-
 	tags模块已经弃用！
-
 -->
 <template>
 	<div class="tags" v-if="tags.show">
