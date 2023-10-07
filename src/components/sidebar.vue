@@ -1,6 +1,3 @@
-<!--
-    最恶心的东西：el-tree树！！
--->
 <template>
     <div class="sidebar">
         <el-menu class="sidebar-el-menu" default-active="onRoutes" background-color="#324157" text-color="#bfcbd9" active-text-·="#20a0ff" router><!--加一个router，就会在点击菜单后，路径追加一个item的id-->

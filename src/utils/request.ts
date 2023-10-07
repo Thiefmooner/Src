@@ -1,3 +1,6 @@
+/**
+ * 请求拦截器的封装
+ */
 import axios, { AxiosInstance, AxiosError, AxiosResponse, AxiosRequestConfig } from 'axios'
     const service:AxiosInstance = axios.create({
         timeout: 5000

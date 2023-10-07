@@ -1,3 +1,6 @@
+/**
+ * 权限
+ */
 import { defineStore } from 'pinia'
 	interface ObjectList {
 		[key: string]: string[]
