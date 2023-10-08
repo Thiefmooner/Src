@@ -38,14 +38,14 @@
 {
     "id": "698gzsg72c-407b-471b-a28b-eee69a4e64bavsvvz",
     "label": "项目管理",
-    "path":"/",
+    "path":"/qad",
     "icon": "fa fa-desktop",
     "hasChildren": true,
     "items": [
         {
             "id": "7ae94059-9aa5-48eb-8330-4e2a6565b193",
             "label": "项目进度汇报",
-            "path":"/",
+            "path":"/rqrqw",
             "icon": "fa fa-leaf",
             "hasChildren": false,
             "items": [],
@@ -57,14 +57,14 @@
 {
     "id": "wy32636772-407b-471b-a28b-eee69a4e64bavsvvz",
     "label": "BOM管理",
-    "path":"/",
+    "path":"/qrqwrq",
     "icon": "fa fa-coffee",
     "hasChildren": true,
     "items": [
         {
             "id": "wy26236327372-407b-471b-a28b-eee69a4e64bavsvvz51661",
             "label": "采购单管理",
-            "path":"/",
+            "path":"/qrqwr",
             "icon": "fa fa-sitemap",
             "hasChildren": false,
             "items": [],
@@ -73,7 +73,7 @@
         {
             "id": "wy362362666-407b-471b-a28b-eee69a4e64bavsvvz",
             "label": "发货单管理",
-            "path":"/",
+            "path":"/qrqwrqw",
             "icon": "fa fa-th-list",
             "hasChildren": false,
             "items": [],
