@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<div class="plugins-tips">自定义指令实现权限管理，使用非admin账号登录，可查看效果。</div>
+		<div class="plugins-tips">自定义指令实现权限管理，使用非admin账号登录，可查看效果</div>
 		<div class="mgb20">
 			<span class="label">角色：</span>
 			<el-select v-model="role" @change="handleChange">

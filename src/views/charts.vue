@@ -1,7 +1,6 @@
 <template>
 	<div class="container">
-		<div class="plugins-tips">
-			
+		<div class="plugins-tips">			
 			<a href="https://github.com/lin-xin/vue-schart" target="_blank">vue-schart</a>
 		</div>
 		<div class="schart-box">

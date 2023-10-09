@@ -16,7 +16,7 @@
     background-color: #409EFF;
 }
 .message-title{
-    color: #20a0ff;
+    color: hwb(206 13% 0%);
 }
 .collapse-btn:hover{
     background: rgb(40,52,70);
