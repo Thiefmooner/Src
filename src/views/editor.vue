@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div class="plugins-tips">
-			wangEditor：富文本编辑器
+
 			
 		</div>
 		<div class="mgb20" ref="editor"></div>
@@ -34,4 +34,5 @@ const syncHTML = () => {
 };
 </script>
 
-<style></style>
+<style>
+</style>

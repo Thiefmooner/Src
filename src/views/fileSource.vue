@@ -1,7 +1,5 @@
 <template>
-  <el-scrollbar class="fileSideMenu">
-    <el-tree :data="menuData" :props="defaultProps" @node-click="handleNodeClick" />
-  </el-scrollbar>
+    <el-tree class="fileSideMenu" :data="menuData" :props="defaultProps" @node-click="handleNodeClick" />
   <div class="search-Box">
     <el-input placeholder="输入文件,自动检索" class="search"  v-model="search" icon="Edit"></el-input>
   </div>
