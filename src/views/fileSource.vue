@@ -1,5 +1,7 @@
 <template>
-    <el-tree class="fileSideMenu" :data="menuData" :props="defaultProps" @node-click="handleNodeClick" />
+    <div class="fileSideMenu" >
+      <el-tree class="eltree" :data="menuData" :props="defaultProps" @node-click="handleNodeClick" />
+    </div>
   <div class="search-Box">
     <el-input placeholder="输入文件,自动检索" class="search"  v-model="search" icon="Edit"></el-input>
   </div>
@@ -272,17 +274,17 @@ import { ref,computed } from 'vue'
 </script>
 
 <style scoped>
-.fileSideMenu{
+.fileSideMenu .eltree{
   position: absolute;
   width: 17%;
   height: 100%;
 }
 .search-Box{
   position: absolute;
-  top:3.5%;
-  right:20%;
+  top: 5%;
+  right:1%;
   height:8%;
-  width: 50%
+  width: 80%
 }
 .search{
   height: 80%;
