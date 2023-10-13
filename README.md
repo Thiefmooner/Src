@@ -190,7 +190,7 @@ el-menu标签要显式声明`router`属性，然后设置每个el-menu-item标�
 
 #### 坑1：label值
 
-```
+```django
 <span>{{ item.label }}</span>外层要套一对`<template>`，才会正常渲染label值
 ```
 
@@ -198,7 +198,7 @@ el-menu标签要显式声明`router`属性，然后设置每个el-menu-item标�
 
 #### 坑2：= =
 
-```
+```django
 v-if="item.hasChildren = = true"用来判断是否有子级菜单时，必须用= =
 ```
 
@@ -206,7 +206,7 @@ v-if="item.hasChildren = = true"用来判断是否有子级菜单时，必须用
 
 #### 坑3：index属性
 
-```
+```django
 el-sub-menu el-menu-item绑定index属性时候，后面必须是字符串！！！在此，我拼接了一个空字符串`<el-sub-menu :index="item.id+''">`
 ```
 
@@ -214,7 +214,7 @@ el-sub-menu el-menu-item绑定index属性时候，后面必须是字符串！！
 
 #### 坑4：key值绑定
 
-```
+```django
 有v-for的地方，就要有key值绑定！!主要用于dom diff算法，diff算法为同级比较，比较当前标签上的key还有他当前的标签名，如果key和标签名都一样时只移动，不会重新创建元素和删除元素
 ```
 
