@@ -164,12 +164,14 @@ vue-manage-system-master
 #### 参数说明：
 
 ```json
-"id":string类型，”/想要到达的路径”（在此项目中同时被用作router属性的导航）
-"label":string类型，选项名
-"icon": string类型，图标，暂时用不到
-"hasChildren":boolean类型，判断是否有子级元素
-"items":数组类型，如果hasChildren为true，数组就有内容，内容为嵌套的同样结构体
-"parentId":父元素的id,用来判断所属层级，同一级别的元素此属性值应该一样
+{
+"id":"string类型，”/想要到达的路径”（在此项目中同时被用作router属性的导航）"
+"label":"string类型，选项名"
+"icon": "string类型，图标，暂时用不到"
+"hasChildren":"boolean类型，判断是否有子级元素"
+"items":"数组类型，如果hasChildren为true，数组就有内容，内容为嵌套的同样结构体"
+"parentId":"父元素的id,用来判断所属层级，同一级别的元素此属性值应该一样"
+}
 ```
 
 
